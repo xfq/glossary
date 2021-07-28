@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>医疗日语</title>
+    <style>
+        body {
+            max-width: 50em;
+            margin: 0 auto;
+            font-family: sans-serif;
+            padding: 1em;
+        }
+        h1, h2 {
+            color: #005A9C;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px black solid;
+        }
+        /* th {
+            font-weight: bold;
+            color: #fff;
+            background-color: #034575;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        } */
+        td {
+            border-left: 1px solid rgba(17, 101, 145, 0.4);
+            border-right: 1px solid rgba(17, 101, 145, 0.4);
+            padding: 0.5em;
+        }
+        tbody tr:nth-child(2n-1) {
+            background-color: #fafafa;
+            transition: all .125s ease-in-out;
+        }
+
+        .search {
+            text-align: left;
+            margin: 1rem;
+            position: absolute;
+            top: -0.1rem;
+            left: 0rem;
+            z-index: 1000;
+            background-color: transparent;
+            display: inline-block;
+        }
+
+    input[type=search] {
+      border: 1px solid rgba(17, 101, 145, 0.4);
+      padding: 0.5em 0.5em;
+      width: 120px;
+      font-size: 16px;
+    }
+
+    .hidden {
+      display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="table-wrapper">
+        <div class="search">
+          <span>Search:</span>
+          <input placeholder="頭痛" type="search" id="search">
+        </div>
+    
+    <table id="filter">
+      <thead>
+
+        <tr>
+            <td lang="ja">日本語</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td lang="ja">レントゲン検査</td>
+            <td lang="zh-Hans">X光检查</td>
+        </tr>
+        <tr>
+            <td lang="ja">鼻づまり</td>
+            <td lang="zh-Hans">鼻塞</td>
+        </tr>
+        <tr>
+            <td lang="ja">鼻水</td>
+            <td lang="zh-Hans">鼻涕</td>
+        </tr>
+        <tr>
+            <td lang="ja">授乳中</td>
+            <td lang="zh-Hans">哺乳期</td>
+        </tr>
+        <tr>
+            <td lang="ja">くしゃみ</td>
+            <td lang="zh-Hans">打喷嚏</td>
+        </tr>
+        <tr>
+            <td lang="ja">低血糖</td>
+            <td lang="zh-Hans">低血糖</td>
+        </tr>
+        <tr>
+            <td lang="ja">吐き気</td>
+            <td lang="zh-Hans">恶心</td>
+        </tr>
+        <tr>
+            <td lang="ja">小児科</td>
+            <td lang="zh-Hans">儿科</td>
+        </tr>
+        <tr>
+            <td lang="ja">チアノーゼ</td>
+            <td lang="zh-Hans">发绀</td>
+        </tr>
+        <tr>
+            <td lang="ja">発熱</td>
+            <td lang="zh-Hans">发热</td>
+        </tr>
+        <tr>
+            <td lang="ja">機嫌が悪い</td>
+            <td lang="zh-Hans">烦躁</td>
+        </tr>
+        <tr>
+            <td lang="ja">肺活量</td>
+            <td lang="zh-Hans">肺活量</td>
+        </tr>
+        <tr>
+            <td lang="ja">出産</td>
+            <td lang="zh-Hans">分娩</td>
+        </tr>
+        <tr>
+            <td lang="ja">風疹</td>
+            <td lang="zh-Hans">风疹</td>
+        </tr>
+        <tr>
+            <td lang="ja">再診</td>
+            <td lang="zh-Hans">复诊</td>
+        </tr>
+        <tr>
+            <td lang="ja">腹痛</td>
+            <td lang="zh-Hans">腹痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">下痢</td>
+            <td lang="zh-Hans">腹泻</td>
+        </tr>
+        <tr>
+            <td lang="ja">風邪</td>
+            <td lang="zh-Hans">感冒</td>
+        </tr>
+        <tr>
+            <td lang="ja">骨盤</td>
+            <td lang="zh-Hans">骨盆</td>
+        </tr>
+        <tr>
+            <td lang="ja">骨折</td>
+            <td lang="zh-Hans">骨折</td>
+        </tr>
+        <tr>
+            <td lang="ja">受付</td>
+            <td lang="zh-Hans">挂号处</td>
+        </tr>
+        <tr>
+            <td lang="ja">アレルギー</td>
+            <td lang="zh-Hans">过敏</td>
+        </tr>
+        <tr>
+            <td lang="ja">アレルギー性鼻炎</td>
+            <td lang="zh-Hans">过敏性鼻炎</td>
+        </tr>
+        <tr>
+            <td lang="ja">永久歯</td>
+            <td lang="zh-Hans">恒牙</td>
+        </tr>
+        <tr>
+            <td lang="ja">呼吸</td>
+            <td lang="zh-Hans">呼吸</td>
+        </tr>
+        <tr>
+            <td lang="ja">看護師</td>
+            <td lang="zh-Hans">护士</td>
+        </tr>
+        <tr>
+            <td lang="ja">クラッシュ症候群</td>
+            <td lang="zh-Hans">挤压综合征</td>
+        </tr>
+        <tr>
+            <td lang="ja">入れ歯</td>
+            <td lang="zh-Hans">假牙</td>
+        </tr>
+        <tr>
+            <td lang="ja">検査</td>
+            <td lang="zh-Hans">检查</td>
+        </tr>
+        <tr>
+            <td lang="ja">トリアージ</td>
+            <td lang="zh-Hans">检伤分类</td>
+        </tr>
+        <tr>
+            <td lang="ja">カプセル</td>
+            <td lang="zh-Hans">胶囊</td>
+        </tr>
+        <tr>
+            <td lang="ja">せき</td>
+            <td lang="zh-Hans">咳嗽</td>
+        </tr>
+        <tr>
+            <td lang="ja">マスク</td>
+            <td lang="zh-Hans">口罩</td>
+        </tr>
+        <tr>
+            <td lang="ja">しびれる</td>
+            <td lang="zh-Hans">麻</td>
+        </tr>
+        <tr>
+            <td lang="ja">はしか</td>
+            <td lang="zh-Hans">麻疹</td>
+        </tr>
+        <tr>
+            <td lang="ja">麻酔</td>
+            <td lang="zh-Hans">麻醉</td>
+        </tr>
+        <tr>
+            <td lang="ja">外来</td>
+            <td lang="zh-Hans">门诊</td>
+        </tr>
+        <tr>
+            <td lang="ja">内科</td>
+            <td lang="zh-Hans">内科</td>
+        </tr>
+        <tr>
+            <td lang="ja">尿路結石</td>
+            <td lang="zh-Hans">尿路结石</td>
+        </tr>
+        <tr>
+            <td lang="ja">頻尿</td>
+            <td lang="zh-Hans">尿频</td>
+        </tr>
+        <tr>
+            <td lang="ja">嘔吐</td>
+            <td lang="zh-Hans">呕吐</td>
+        </tr>
+        <tr>
+            <td lang="ja">疲労</td>
+            <td lang="zh-Hans">疲劳</td>
+        </tr>
+        <tr>
+            <td lang="ja">片頭痛</td>
+            <td lang="zh-Hans">偏头痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">貧血</td>
+            <td lang="zh-Hans">贫血</td>
+        </tr>
+        <tr>
+            <td lang="ja">気胸</td>
+            <td lang="zh-Hans">气胸</td>
+        </tr>
+        <tr>
+            <td lang="ja">虫歯</td>
+            <td lang="zh-Hans">龋齿</td>
+        </tr>
+        <tr>
+            <td lang="ja">ガーゼ</td>
+            <td lang="zh-Hans">纱布</td>
+        </tr>
+        <tr>
+            <td lang="ja">やけど</td>
+            <td lang="zh-Hans">烧伤</td>
+        </tr>
+        <tr>
+            <td lang="ja">神経</td>
+            <td lang="zh-Hans">神经</td>
+        </tr>
+        <tr>
+            <td lang="ja">アドレナリン</td>
+            <td lang="zh-Hans">肾上腺素</td>
+        </tr>
+        <tr>
+            <td lang="ja">視力</td>
+            <td lang="zh-Hans">视力</td>
+        </tr>
+        <tr>
+            <td lang="ja">メス</td>
+            <td lang="zh-Hans">手术刀</td>
+        </tr>
+        <tr>
+            <td lang="ja">輸血</td>
+            <td lang="zh-Hans">输血</td>
+        </tr>
+        <tr>
+            <td lang="ja">双子</td>
+            <td lang="zh-Hans">双胞胎</td>
+        </tr>
+        <tr>
+            <td lang="ja">糖尿病</td>
+            <td lang="zh-Hans">糖尿病</td>
+        </tr>
+        <tr>
+            <td lang="ja">痛み</td>
+            <td lang="zh-Hans">疼痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">人工心肺</td>
+            <td lang="zh-Hans">体外循环</td>
+        </tr>
+        <tr>
+            <td lang="ja">聴力</td>
+            <td lang="zh-Hans">听力</td>
+        </tr>
+        <tr>
+            <td lang="ja">生理痛</td>
+            <td lang="zh-Hans">痛经</td>
+        </tr>
+        <tr>
+            <td lang="ja">頭痛</td>
+            <td lang="zh-Hans">头痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">めまい</td>
+            <td lang="zh-Hans">头晕</td>
+        </tr>
+        <tr>
+            <td lang="ja">外科</td>
+            <td lang="zh-Hans">外科</td>
+        </tr>
+        <tr>
+            <td lang="ja">外傷</td>
+            <td lang="zh-Hans">外伤</td>
+        </tr>
+        <tr>
+            <td lang="ja">まぶしい</td>
+            <td lang="zh-Hans">畏光</td>
+        </tr>
+        <tr>
+            <td lang="ja">胃カメラ</td>
+            <td lang="zh-Hans">胃镜</td>
+        </tr>
+        <tr>
+            <td lang="ja">胃痛</td>
+            <td lang="zh-Hans">胃痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">喘息</td>
+            <td lang="zh-Hans">哮喘</td>
+        </tr>
+        <tr>
+            <td lang="ja">心臓</td>
+            <td lang="zh-Hans">心脏</td>
+        </tr>
+        <tr>
+            <td lang="ja">心タンポナーデ</td>
+            <td lang="zh-Hans">心脏压塞</td>
+        </tr>
+        <tr>
+            <td lang="ja">胸部</td>
+            <td lang="zh-Hans">胸部</td>
+        </tr>
+        <tr>
+            <td lang="ja">胸が痛い</td>
+            <td lang="zh-Hans">胸痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">ショック</td>
+            <td lang="zh-Hans">休克</td>
+        </tr>
+        <tr>
+            <td lang="ja">血圧</td>
+            <td lang="zh-Hans">血压</td>
+        </tr>
+        <tr>
+            <td lang="ja">サチュレーション</td>
+            <td lang="zh-Hans">血氧饱和度</td>
+        </tr>
+        <tr>
+            <td lang="ja">血液</td>
+            <td lang="zh-Hans">血液</td>
+        </tr>
+        <tr>
+            <td lang="ja">眼科</td>
+            <td lang="zh-Hans">眼科</td>
+        </tr>
+        <tr>
+            <td lang="ja">かゆい</td>
+            <td lang="zh-Hans">痒</td>
+        </tr>
+        <tr>
+            <td lang="ja">腰痛</td>
+            <td lang="zh-Hans">腰痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">薬</td>
+            <td lang="zh-Hans">药</td>
+        </tr>
+        <tr>
+            <td lang="ja">お薬手帳</td>
+            <td lang="zh-Hans">药物手册</td>
+        </tr>
+        <tr>
+            <td lang="ja">ずきずき痛みます</td>
+            <td lang="zh-Hans">一跳一跳地痛</td>
+        </tr>
+        <tr>
+            <td lang="ja">医者</td>
+            <td lang="zh-Hans">医生</td>
+        </tr>
+        <tr>
+            <td lang="ja">たん</td>
+            <td lang="zh-Hans">有痰</td>
+        </tr>
+        <tr>
+            <td lang="ja">右目</td>
+            <td lang="zh-Hans">右眼</td>
+        </tr>
+        <tr>
+            <td lang="ja">生理</td>
+            <td lang="zh-Hans">月经</td>
+        </tr>
+        <tr>
+            <td lang="ja">症状</td>
+            <td lang="zh-Hans">症状</td>
+        </tr>
+        <tr>
+            <td lang="ja">親知らず</td>
+            <td lang="zh-Hans">智齿</td>
+        </tr>
+        <tr>
+            <td lang="ja">重傷</td>
+            <td lang="zh-Hans">重伤</td>
+        </tr>
+        <tr>
+            <td lang="ja">入院</td>
+            <td lang="zh-Hans">住院</td>
+        </tr>
+        <tr>
+            <td lang="ja">左目</td>
+            <td lang="zh-Hans">左眼</td>
+        </tr></tbody>
+    </table>
+
+    <script>
+        const search = document.getElementById('search')
+        const table = document.getElementById('filter')
+        const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        const filter = event => {
+          const searchTerm = event.target.value.toLowerCase()
+          trArray.forEach(row => {
+            row.classList.add('hidden')
+            const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+            tdArray.forEach(cell => {
+              if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+                row.classList.remove('hidden')
+              }
+            })
+          })
+        }
+  
+        search.addEventListener('keyup', filter, false)
+      </script>
+
+</body>
+
+</html>
