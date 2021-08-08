@@ -8,7 +8,9 @@ Web-related Glossary for personal use. The terms are not categorized.
 
 Rendered version: https://xfq.github.io/glossary/w3c.html
 
-### Medical-related terms in Japanese (医疗日语)
+### Japanese Medical Vocabulary and Phrases (医疗日语)
+
+Trying to learn Japanese medical terminology. The terms are not categorized.
 
 Rendered version: https://xfq.github.io/glossary/iryou.html
 
