@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>日语中的数学用语</title>
+    <meta name="keywords" content="日语中的数学用语" />
+    <meta name="description" content="日语中的常见数学用语。" />
+    <style>
+        body {
+            max-width: 50em;
+            margin: 0 auto;
+            font-family: sans-serif;
+            padding: 1em;
+        }
+        h1, h2 {
+            color: #005A9C;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px black solid;
+        }
+        /* th {
+            font-weight: bold;
+            color: #fff;
+            background-color: #034575;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        } */
+        td {
+            border-left: 1px solid rgba(17, 101, 145, 0.4);
+            border-right: 1px solid rgba(17, 101, 145, 0.4);
+            padding: 0.5em;
+        }
+        tbody tr:nth-child(2n-1) {
+            background-color: #fafafa;
+            transition: all .125s ease-in-out;
+        }
+
+        .search {
+            text-align: left;
+            margin: 1rem;
+            position: absolute;
+            top: -0.1rem;
+            left: 0rem;
+            z-index: 1000;
+            background-color: transparent;
+            display: inline-block;
+        }
+
+    input[type=search] {
+      border: 1px solid rgba(17, 101, 145, 0.4);
+      padding: 0.5em 0.5em;
+      width: 120px;
+      font-size: 16px;
+    }
+
+    .hidden {
+      display: none;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="table-wrapper">
+        <!-- <div class="search">
+          <span>Search:</span>
+          <input placeholder="素数" type="search" id="search">
+        </div> -->
+    
+    <table id="filter">
+      <thead>
+        <tr>
+            <td lang="ja">日本語</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td lang="ja">アルキメデス</td>
+            <td lang="zh-Hans">阿基米德</td>
+        </tr>
+        <tr>
+            <td lang="ja">アイザック・ニュートン</td>
+            <td lang="zh-Hans">艾萨克·牛顿</td>
+        </tr>
+        <tr>
+            <td lang="ja">被除数</td>
+            <td lang="zh-Hans">被除数</td>
+        </tr>
+        <tr>
+            <td lang="ja">掛け算・乗法</td>
+            <td lang="zh-Hans">乘法</td>
+        </tr>
+        <tr>
+            <td lang="ja">割り算・除法</td>
+            <td lang="zh-Hans">除法</td>
+        </tr>
+        <tr>
+            <td lang="ja">除数</td>
+            <td lang="zh-Hans">除数</td>
+        </tr>
+        <tr>
+            <td lang="ja">二項演算</td>
+            <td lang="zh-Hans">二元运算</td>
+        </tr>
+        <tr>
+            <td lang="ja">フェルマーの小定理</td>
+            <td lang="zh-Hans">费马小定理</td>
+        </tr>
+        <tr>
+            <td lang="ja">分母</td>
+            <td lang="zh-Hans">分母</td>
+        </tr>
+        <tr>
+            <td lang="ja">分子</td>
+            <td lang="zh-Hans">分子</td>
+        </tr>
+        <tr>
+            <td lang="ja">確率</td>
+            <td lang="zh-Hans">概率</td>
+        </tr>
+        <tr>
+            <td lang="ja">ゴールドバッハの予想</td>
+            <td lang="zh-Hans">哥德巴赫猜想</td>
+        </tr>
+        <tr>
+            <td lang="ja">合成数</td>
+            <td lang="zh-Hans">合数</td>
+        </tr>
+        <tr>
+            <td lang="ja">図形</td>
+            <td lang="zh-Hans">几何图形</td>
+        </tr>
+        <tr>
+            <td lang="ja">ユークリッド原論</td>
+            <td lang="zh-Hans">几何原本</td>
+        </tr>
+        <tr>
+            <td lang="ja">足し算・加法</td>
+            <td lang="zh-Hans">加法</td>
+        </tr>
+        <tr>
+            <td lang="ja">引き算・減法</td>
+            <td lang="zh-Hans">减法</td>
+        </tr>
+        <tr>
+            <td lang="ja">商</td>
+            <td lang="zh-Hans">商</td>
+        </tr>
+        <tr>
+            <td lang="ja">数論</td>
+            <td lang="zh-Hans">数论</td>
+        </tr>
+        <tr>
+            <td lang="ja">数学記号</td>
+            <td lang="zh-Hans">数学符号</td>
+        </tr>
+        <tr>
+            <td lang="ja">整数の合同</td>
+            <td lang="zh-Hans">同余</td>
+        </tr>
+        <tr>
+            <td lang="ja">無理数</td>
+            <td lang="zh-Hans">无理数</td>
+        </tr>
+        <tr>
+            <td lang="ja">形式科学</td>
+            <td lang="zh-Hans">形式科学</td>
+        </tr>
+        <tr>
+            <td lang="ja">有理数</td>
+            <td lang="zh-Hans">有理数</td>
+        </tr>
+        <tr>
+            <td lang="ja">剰余</td>
+            <td lang="zh-Hans">余数</td>
+        </tr>
+        <tr>
+            <td lang="ja">ユークリッドの互除法</td>
+            <td lang="zh-Hans">辗转相除法</td>
+        </tr>
+        <tr>
+            <td lang="ja">割り切れる</td>
+            <td lang="zh-Hans">整除</td>
+        </tr>
+        <tr>
+            <td lang="ja">整数</td>
+            <td lang="zh-Hans">整数</td>
+        </tr>
+        <tr>
+            <td lang="ja">証明</td>
+            <td lang="zh-Hans">证明</td>
+        </tr>
+        <tr>
+            <td lang="ja">素数</td>
+            <td lang="zh-Hans">质数、素数</td>
+        </tr>
+        <tr>
+            <td lang="ja">最大公約数</td>
+            <td lang="zh-Hans">最大公约数</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script>
+        // const search = document.getElementById('search')
+        // const table = document.getElementById('filter')
+        // const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        // const filter = event => {
+        //   const searchTerm = event.target.value.toLowerCase()
+        //   trArray.forEach(row => {
+        //     row.classList.add('hidden')
+        //     const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+        //     tdArray.forEach(cell => {
+        //       if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+        //         row.classList.remove('hidden')
+        //       }
+        //     })
+        //   })
+        // }
+  
+        // search.addEventListener('keyup', filter, false)
+      </script>
+
+</body>
+
+</html>
