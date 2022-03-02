@@ -6,6 +6,10 @@
     <title>日语中的数学用语</title>
     <meta name="keywords" content="日语中的数学用语" />
     <meta name="description" content="日语中的常见数学用语。" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
     <style>
         body {
             max-width: 50em;
@@ -38,7 +42,16 @@
             transition: all .125s ease-in-out;
         }
 
-        .search {
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 10px auto;
+            width: 1000px;
+            min-height: 100vh;
+        }
+
+        /* .search {
             text-align: left;
             margin: 1rem;
             position: absolute;
@@ -58,11 +71,12 @@
 
     .hidden {
       display: none;
-    }
+    } */
     </style>
 </head>
 
 <body>
+    <div class="main">
     <div class="table-wrapper">
         <!-- <div class="search">
           <span>Search:</span>
@@ -203,6 +217,38 @@
         </tr>
       </tbody>
     </table>
+    </div>
+
+    <div>
+    <table>
+        <thead>
+          <tr>
+              <td lang="ja">数学記号</td>
+              <td lang="ja">日本語</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>
+                  \(a + b\)
+              </td>
+              <td lang="ja">
+                  <strong>a たす b</strong>　あるいは　<strong>a プラス b</strong>
+              </td>
+          </tr>
+
+          <tr>
+            <td>
+                \(a - b\)
+            </td>
+            <td lang="ja">
+                <strong>a ひく b</strong>　あるいは　<strong>a マイナス b</strong>
+            </td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
+    </div>
 
     <script>
         // const search = document.getElementById('search')
