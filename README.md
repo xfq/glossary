@@ -14,11 +14,17 @@ Trying to learn Japanese medical terminology. The terms are not categorized.
 
 Rendered version: https://xfq.github.io/glossary/iryou/
 
-### Japanese Maths Vocabulary and Phrases (日语中的数学用语)
+### Japanese Maths Vocabulary and Phrases (日语中的数学词汇)
 
 The vocabulary to talk about mathematics in Japanese. The terms are not categorized.
 
-Rendered version: https://xfq.github.io/glossary/maths/
+Rendered version: https://xfq.github.io/glossary/maths/ja.html
+
+### English Maths Vocabulary and Phrases (英语中的数学词汇)
+
+The vocabulary to talk about mathematics in English. The terms are not categorized.
+
+Rendered version: https://xfq.github.io/glossary/maths/en.html
 
 ### Other Glossaries
 

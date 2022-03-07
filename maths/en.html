@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>英语中的数学词汇</title>
+    <meta name="keywords" content="英语中的数学词汇" />
+    <meta name="description" content="英语中的常见数学词汇。" />
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            max-width: 50em;
+            margin: 0 auto;
+            font-family: sans-serif;
+            padding: 1em;
+        }
+        h1, h2 {
+            color: #005A9C;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            border: 2px black solid;
+        }
+        /* th {
+            font-weight: bold;
+            color: #fff;
+            background-color: #034575;
+            padding-top: 1em;
+            padding-bottom: 1em;
+        } */
+        td {
+            border-left: 1px solid rgba(17, 101, 145, 0.4);
+            border-right: 1px solid rgba(17, 101, 145, 0.4);
+            padding: 0.5em;
+        }
+        tbody tr:nth-child(2n-1) {
+            background-color: #fafafa;
+            transition: all .125s ease-in-out;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 10px auto;
+            width: 1000px;
+            min-height: 100vh;
+        }
+
+        /* .search {
+            text-align: left;
+            margin: 1rem;
+            position: absolute;
+            top: -0.1rem;
+            left: 0rem;
+            z-index: 1000;
+            background-color: transparent;
+            display: inline-block;
+        }
+
+    input[type=search] {
+      border: 1px solid rgba(17, 101, 145, 0.4);
+      padding: 0.5em 0.5em;
+      width: 120px;
+      font-size: 16px;
+    }
+
+    .hidden {
+      display: none;
+    } */
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    <div class="table-wrapper">
+        <!-- <div class="search">
+          <span>Search:</span>
+          <input placeholder="prime" type="search" id="search">
+        </div> -->
+    
+    <table id="filter">
+      <thead>
+        <tr>
+            <td lang="en">English</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td lang="en">addition</td>
+            <td lang="zh-Hans">加法</td>
+        </tr>
+        <tr>
+            <td lang="en">Archimedes</td>
+            <td lang="zh-Hans">阿基米德</td>
+        </tr>
+        <tr>
+            <td lang="en">axiom</td>
+            <td lang="zh-Hans">公理</td>
+        </tr>
+        <tr>
+            <td lang="en">composite number</td>
+            <td lang="zh-Hans">合数</td>
+        </tr>
+        <tr>
+            <td lang="en">division</td>
+            <td lang="zh-Hans">除法</td>
+        </tr>
+        <tr>
+            <td lang="en">elementary arithmetic</td>
+            <td lang="zh-Hans">四则运算</td>
+        </tr>
+        <tr>
+            <td lang="en">Euclidean algorithm</td>
+            <td lang="zh-Hans">辗转相除法</td>
+        </tr>
+        <tr>
+            <td lang="en">Euclid's Elements</td>
+            <td lang="zh-Hans">几何原本</td>
+        </tr>
+        <tr>
+            <td lang="en">Fermat's little theorem</td>
+            <td lang="zh-Hans">费马小定理</td>
+        </tr>
+        <tr>
+            <td lang="en">formal science</td>
+            <td lang="zh-Hans">形式科学</td>
+        </tr>
+        <tr>
+            <td lang="en">Goldbach's conjecture</td>
+            <td lang="zh-Hans">哥德巴赫猜想</td>
+        </tr>
+        <tr>
+            <td lang="en">greatest common divisor; highest common factor</td>
+            <td lang="zh-Hans">最大公约数</td>
+        </tr>
+        <tr>
+            <td lang="en">integer</td>
+            <td lang="zh-Hans">整数</td>
+        </tr>
+        <tr>
+            <td lang="en">irrational number</td>
+            <td lang="zh-Hans">无理数</td>
+        </tr>
+        <tr>
+            <td lang="en">Isaac Newton</td>
+            <td lang="zh-Hans">艾萨克·牛顿</td>
+        </tr>
+        <tr>
+            <td lang="en">linear algebra</td>
+            <td lang="zh-Hans">线性代数</td>
+        </tr>
+        <tr>
+            <td lang="en">mathematical symbol</td>
+            <td lang="zh-Hans">数学符号</td>
+        </tr>
+        <tr>
+            <td lang="en">multiplication</td>
+            <td lang="zh-Hans">乘法</td>
+        </tr>
+        <tr>
+            <td lang="en">natural number</td>
+            <td lang="zh-Hans">自然数</td>
+        </tr>
+        <tr>
+            <td lang="en">number theory</td>
+            <td lang="zh-Hans">数论</td>
+        </tr>
+        <tr>
+            <td lang="en">prime</td>
+            <td lang="zh-Hans">质数、素数</td>
+        </tr>
+        <tr>
+            <td lang="en">probability</td>
+            <td lang="zh-Hans">概率</td>
+        </tr>
+        <tr>
+            <td lang="en">Pythagorean theorem</td>
+            <td lang="zh-Hans">勾股定理</td>
+        </tr>
+        <tr>
+            <td lang="en">rational number</td>
+            <td lang="zh-Hans">有理数</td>
+        </tr>
+        <tr>
+            <td lang="en">real number</td>
+            <td lang="zh-Hans">实数</td>
+        </tr>
+        <tr>
+            <td lang="en">subtraction</td>
+            <td lang="zh-Hans">减法</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div>
+    <table>
+        <thead>
+          <tr>
+              <td lang="en">Mathematical symbols</td>
+              <td lang="en">Pronunciation</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>
+                  \(a + b\)
+              </td>
+              <td lang="en">
+                  a plus b
+              </td>
+          </tr>
+
+          <tr>
+            <td>
+                \(a - b\)
+            </td>
+            <td lang="en">
+                a minus b
+            </td>
+          </tr>
+
+        <tr>
+            <td>
+                \(a \times b\)
+            </td>
+            <td lang="en">
+                a times b
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                \(a \div b\)
+            </td>
+            <td lang="en">
+                a is divided by b
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                \(a > b\)
+            </td>
+            <td lang="en">
+                a is greater than b
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                \(a^b\)
+            </td>
+            <td lang="en">
+                a to the x
+            </td>
+        </tr>
+
+    </tbody>
+    </table>
+    </div>
+    </div>
+
+    <script>
+        // const search = document.getElementById('search')
+        // const table = document.getElementById('filter')
+        // const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        // const filter = event => {
+        //   const searchTerm = event.target.value.toLowerCase()
+        //   trArray.forEach(row => {
+        //     row.classList.add('hidden')
+        //     const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+        //     tdArray.forEach(cell => {
+        //       if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+        //         row.classList.remove('hidden')
+        //       }
+        //     })
+        //   })
+        // }
+  
+        // search.addEventListener('keyup', filter, false)
+      </script>
+
+</body>
+
+</html>
