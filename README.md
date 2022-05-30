@@ -30,6 +30,7 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 
 * [Internationalization](https://www.w3.org/TR/i18n-glossary/) (English)
 * [Mozilla L10N Glossary](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary) (English, Japanese)
+* [React](https://github.com/reactjs/zh-hans.reactjs.org/issues/2) (English, Chinese)
 * [Requirements for Chinese Text Layout](https://w3c.github.io/clreq/#glossary) (English, Chinese)
 * [Requirements for Japanese Text Layout](https://w3c.github.io/jlreq/#terminology) (English, Japanese)
 * [Terms that are likely to appear frequently in W3C AC meetings](https://www.w3.org/2020/05/words) (English, Chinese, Japanese, Korean)
