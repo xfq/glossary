@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>国际化术语表</title>
+    <meta name="keywords" content="国际化" />
+    <meta name="description" content="本文档包括与国际化相关的各种术语。" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="input">
+        <label for="search">Search:</label>
+        <input placeholder="code point" type="text" id="search">
+    </div>
+    
+    <table id="filter">
+      <thead>
+        <tr>
+            <td lang="en">English</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td lang="en">Application internal identifiers</td>
+            <td lang="zh-Hans">应用内部标识符</td>
+        </tr>
+        <tr>
+            <td lang="en">ASCII case-insensitive matching</td>
+            <td lang="zh-Hans">ASCII大小写不敏感匹配</td>
+        </tr>
+        <tr>
+            <td lang="en">Base direction</td>
+            <td lang="zh-Hans">基方向</td>
+        </tr>
+        <tr>
+            <td lang="en">Basic Multilingual Plane (BMP)</td>
+            <td lang="zh-Hans">基本多文种平面（BMP）</td>
+        </tr>
+        <tr>
+            <td lang="en">Bidirectional text</td>
+            <td lang="zh-Hans">双向文本</td>
+        </tr>
+        <tr>
+            <td lang="en">code point</td>
+            <td lang="zh-Hans">码位</td>
+        </tr>
+        <!-- <tr>
+            <td lang="en">アシクロビル</td>
+            <td lang="zh-Hans">阿昔洛韦</td>
+        </tr>
+        <tr>
+            <td lang="en">悪性腫瘍・がん</td>
+            <td lang="zh-Hans">癌症</td>
+        </tr>
+        <tr>
+            <td lang="en">アミノ酸</td>
+            <td lang="zh-Hans">氨基酸</td>
+        </tr>
+        <tr>
+            <td lang="en">瘢痕</td>
+            <td lang="zh-Hans">疤痕</td>
+        </tr>
+        <tr>
+            <td lang="en">おりもの</td>
+            <td lang="zh-Hans">白带</td>
+        </tr>
+        <tr>
+            <td lang="en">白斑</td>
+            <td lang="zh-Hans">白癜风</td>
+        </tr>
+        <tr>
+            <td lang="en">白血球</td>
+            <td lang="zh-Hans">白细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">インターロイキン</td>
+            <td lang="zh-Hans">白细胞介素（IL）</td>
+        </tr>
+        <tr>
+            <td lang="en">敗血症</td>
+            <td lang="zh-Hans">败血症</td>
+        </tr>
+        <tr>
+            <td lang="en">細胞質</td>
+            <td lang="zh-Hans">胞质</td>
+        </tr>
+        <tr>
+            <td lang="en">背中</td>
+            <td lang="zh-Hans">背</td>
+        </tr>
+        <tr>
+            <td lang="en">ジフェンヒドラミン</td>
+            <td lang="zh-Hans">苯海拉明</td>
+        </tr>
+        <tr>
+            <td lang="en">鼻づまり</td>
+            <td lang="zh-Hans">鼻塞</td>
+        </tr>
+        <tr>
+            <td lang="en">鼻水</td>
+            <td lang="zh-Hans">鼻涕</td>
+        </tr>
+        <tr>
+            <td lang="en">粉瘤</td>
+            <td lang="zh-Hans">表皮囊肿</td>
+        </tr>
+        <tr>
+            <td lang="en">プロピルチオウラシル</td>
+            <td lang="zh-Hans">丙硫氧嘧啶</td>
+        </tr>
+        <tr>
+            <td lang="en">合併症</td>
+            <td lang="zh-Hans">并发症</td>
+        </tr>
+        <tr>
+            <td lang="en">ウイルス性疾患</td>
+            <td lang="zh-Hans">病毒性疾病</td>
+        </tr>
+        <tr>
+            <td lang="en">病態生理学</td>
+            <td lang="zh-Hans">病理生理学</td>
+        </tr>
+        <tr>
+            <td lang="en">病理学</td>
+            <td lang="zh-Hans">病理学</td>
+        </tr>
+        <tr>
+            <td lang="en">ヒアルロン酸</td>
+            <td lang="zh-Hans">玻尿酸、透明质酸</td>
+        </tr>
+        <tr>
+            <td lang="en">ポルフィリン症</td>
+            <td lang="zh-Hans">卟啉病</td>
+        </tr>
+        <tr>
+            <td lang="en">授乳中</td>
+            <td lang="zh-Hans">哺乳期</td>
+        </tr>
+        <tr>
+            <td lang="en">不安定狭心症</td>
+            <td lang="zh-Hans">不稳定型心绞痛</td>
+        </tr>
+        <tr>
+            <td lang="en">イブプロフェン</td>
+            <td lang="zh-Hans">布洛芬</td>
+        </tr>
+        <tr>
+            <td lang="en">心臓超音波検査</td>
+            <td lang="zh-Hans">超声心动图</td>
+        </tr>
+        <tr>
+            <td lang="en">超音波（エコー）検査</td>
+            <td lang="zh-Hans">超声检查</td>
+        </tr>
+        <tr>
+            <td lang="en">線維芽細胞</td>
+            <td lang="zh-Hans">成纤维细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">感染経路</td>
+            <td lang="zh-Hans">传播途径</td>
+        </tr>
+        <tr>
+            <td lang="en">伝統医学</td>
+            <td lang="zh-Hans">传统医学</td>
+        </tr>
+        <tr>
+            <td lang="en">二次代謝産物</td>
+            <td lang="zh-Hans">次级代谢产物</td>
+        </tr>
+        <tr>
+            <td lang="en">刺激</td>
+            <td lang="zh-Hans">刺激</td>
+        </tr>
+        <tr>
+            <td lang="en">チクチク感</td>
+            <td lang="zh-Hans">刺痛</td>
+        </tr>
+        <tr>
+            <td lang="en">ニキビ・尋常性痤瘡・痤瘡</td>
+            <td lang="zh-Hans">痤疮</td>
+        </tr>
+        <tr>
+            <td lang="en">デュピルマブ</td>
+            <td lang="zh-Hans">达必妥</td>
+        </tr>
+        <tr>
+            <td lang="en">くしゃみ</td>
+            <td lang="zh-Hans">打喷嚏</td>
+        </tr>
+        <tr>
+            <td lang="en">マクロライド</td>
+            <td lang="zh-Hans">大环内酯</td>
+        </tr>
+        <tr>
+            <td lang="en">水疱性類天疱瘡</td>
+            <td lang="zh-Hans">大疱性类天疱疮</td>
+        </tr>
+        <tr>
+            <td lang="en">メタボリックシンドローム</td>
+            <td lang="zh-Hans">代谢综合征</td>
+        </tr>
+        <tr>
+            <td lang="en">帯状疱疹</td>
+            <td lang="zh-Hans">带状疱疹</td>
+        </tr>
+        <tr>
+            <td lang="en">丹毒</td>
+            <td lang="zh-Hans">丹毒</td>
+        </tr>
+        <tr>
+            <td lang="en">ストレッチャー</td>
+            <td lang="zh-Hans">担架床</td>
+        </tr>
+        <tr>
+            <td lang="en">単核貪食細胞系</td>
+            <td lang="zh-Hans">单核吞噬细胞系统</td>
+        </tr>
+        <tr>
+            <td lang="en">単球</td>
+            <td lang="zh-Hans">单核细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">モノクローナル抗体</td>
+            <td lang="zh-Hans">单克隆抗体（单抗）</td>
+        </tr>
+        <tr>
+            <td lang="en">コレステロール</td>
+            <td lang="zh-Hans">胆固醇</td>
+        </tr>
+        <tr>
+            <td lang="en">メスホルダー</td>
+            <td lang="zh-Hans">刀架</td>
+        </tr>
+        <tr>
+            <td lang="en">就寝中に大量の汗をかく</td>
+            <td lang="zh-Hans">盗汗</td>
+        </tr>
+        <tr>
+            <td lang="en">低血糖</td>
+            <td lang="zh-Hans">低血糖</td>
+        </tr>
+        <tr>
+            <td lang="en">デキサメタゾン</td>
+            <td lang="zh-Hans">地塞米松</td>
+        </tr>
+        <tr>
+            <td lang="en">てんかん</td>
+            <td lang="zh-Hans">癫痫</td>
+        </tr>
+        <tr>
+            <td lang="en">電気メスによる焼灼法</td>
+            <td lang="zh-Hans">电灼术</td>
+        </tr>
+        <tr>
+            <td lang="en">ポックスウイルス科</td>
+            <td lang="zh-Hans">痘病毒科</td>
+        </tr>
+        <tr>
+            <td lang="en">多毛</td>
+            <td lang="zh-Hans">多毛</td>
+        </tr>
+        <tr>
+            <td lang="en">ドキシサイクリン</td>
+            <td lang="zh-Hans">多西环素</td>
+        </tr>
+        <tr>
+            <td lang="en">前頭骨</td>
+            <td lang="zh-Hans">额骨</td>
+        </tr>
+        <tr>
+            <td lang="en">吐き気</td>
+            <td lang="zh-Hans">恶心</td>
+        </tr>
+        <tr>
+            <td lang="en">小児科</td>
+            <td lang="zh-Hans">儿科</td>
+        </tr>
+        <tr>
+            <td lang="en">耳鼻咽喉科</td>
+            <td lang="zh-Hans">耳鼻喉科</td>
+        </tr>
+        <tr>
+            <td lang="en">耳鳴り</td>
+            <td lang="zh-Hans">耳鸣</td>
+        </tr>
+        <tr>
+            <td lang="en">受動喫煙</td>
+            <td lang="zh-Hans">二手烟</td>
+        </tr>
+        <tr>
+            <td lang="en">チアノーゼ</td>
+            <td lang="zh-Hans">发绀</td>
+        </tr>
+        <tr>
+            <td lang="en">熱がある・発熱</td>
+            <td lang="zh-Hans">发热</td>
+        </tr>
+        <tr>
+            <td lang="en">バラシクロビル</td>
+            <td lang="zh-Hans">伐昔洛韦</td>
+        </tr>
+        <tr>
+            <td lang="en">機嫌が悪い</td>
+            <td lang="zh-Hans">烦躁</td>
+        </tr>
+        <tr>
+            <td lang="en">市販薬</td>
+            <td lang="zh-Hans">非处方药</td>
+        </tr>
+        <tr>
+            <td lang="en">フェキソフェナジン</td>
+            <td lang="zh-Hans">非索非那定</td>
+        </tr>
+        <tr>
+            <td lang="en">肥満細胞</td>
+            <td lang="zh-Hans">肥大细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">肺動脈</td>
+            <td lang="zh-Hans">肺动脉</td>
+        </tr>
+        <tr>
+            <td lang="en">肺活量</td>
+            <td lang="zh-Hans">肺活量</td>
+        </tr>
+        <tr>
+            <td lang="en">肺真菌症</td>
+            <td lang="zh-Hans">肺真菌病</td>
+        </tr>
+        <tr>
+            <td lang="en">あせも</td>
+            <td lang="zh-Hans">痱子</td>
+        </tr>
+        <tr>
+            <td lang="en">出産</td>
+            <td lang="zh-Hans">分娩</td>
+        </tr>
+        <tr>
+            <td lang="en">リウマチ熱</td>
+            <td lang="zh-Hans">风湿热</td>
+        </tr>
+        <tr>
+            <td lang="en">風疹</td>
+            <td lang="zh-Hans">风疹</td>
+        </tr>
+        <tr>
+            <td lang="en">フルコナゾール</td>
+            <td lang="zh-Hans">氟康唑</td>
+        </tr>
+        <tr>
+            <td lang="en">精巣上体</td>
+            <td lang="zh-Hans">附睾</td>
+        </tr>
+        <tr>
+            <td lang="en">精巣上体炎（副睾丸炎）</td>
+            <td lang="zh-Hans">附睾炎</td>
+        </tr>
+        <tr>
+            <td lang="en">再診</td>
+            <td lang="zh-Hans">复诊</td>
+        </tr>
+        <tr>
+            <td lang="en">腹膜炎</td>
+            <td lang="zh-Hans">腹膜炎</td>
+        </tr>
+        <tr>
+            <td lang="en">腹腔鏡手術</td>
+            <td lang="zh-Hans">腹腔镜手术</td>
+        </tr>
+        <tr>
+            <td lang="en">腹水</td>
+            <td lang="zh-Hans">腹水</td>
+        </tr>
+        <tr>
+            <td lang="en">腹痛</td>
+            <td lang="zh-Hans">腹痛</td>
+        </tr>
+        <tr>
+            <td lang="en">下痢</td>
+            <td lang="zh-Hans">腹泻</td>
+        </tr>
+        <tr>
+            <td lang="en">カドヘリン</td>
+            <td lang="zh-Hans">钙黏素</td>
+        </tr>
+        <tr>
+            <td lang="en">肝硬変</td>
+            <td lang="zh-Hans">肝硬化</td>
+        </tr>
+        <tr>
+            <td lang="en">風邪</td>
+            <td lang="zh-Hans">感冒</td>
+        </tr>
+        <tr>
+            <td lang="en">インターフェロン</td>
+            <td lang="zh-Hans">干扰素</td>
+        </tr>
+        <tr>
+            <td lang="en">乾燥</td>
+            <td lang="zh-Hans">干燥</td>
+        </tr>
+        <tr>
+            <td lang="en">シェーグレン症候群</td>
+            <td lang="zh-Hans">干燥综合征</td>
+        </tr>
+        <tr>
+            <td lang="en">根管長測定器</td>
+            <td lang="zh-Hans">根管长度测量仪</td>
+        </tr>
+        <tr>
+            <td lang="en">子宮頸管炎</td>
+            <td lang="zh-Hans">宫颈炎</td>
+        </tr>
+        <tr>
+            <td lang="en">大腿骨</td>
+            <td lang="zh-Hans">股骨</td>
+        </tr>
+        <tr>
+            <td lang="en">骨</td>
+            <td lang="zh-Hans">骨骼</td>
+        </tr>
+        <tr>
+            <td lang="en">整形外科</td>
+            <td lang="zh-Hans">骨科</td>
+        </tr>
+        <tr>
+            <td lang="en">骨盤</td>
+            <td lang="zh-Hans">骨盆</td>
+        </tr>
+        <tr>
+            <td lang="en">骨髄異形成症候群</td>
+            <td lang="zh-Hans">骨髓增生异常综合征</td>
+        </tr>
+        <tr>
+            <td lang="en">骨折</td>
+            <td lang="zh-Hans">骨折</td>
+        </tr>
+        <tr>
+            <td lang="en">骨粗鬆症</td>
+            <td lang="zh-Hans">骨质疏松症</td>
+        </tr>
+        <tr>
+            <td lang="en">受付</td>
+            <td lang="zh-Hans">挂号处</td>
+        </tr>
+        <tr>
+            <td lang="en">果糖</td>
+            <td lang="zh-Hans">果糖</td>
+        </tr>
+        <tr>
+            <td lang="en">アレルギー</td>
+            <td lang="zh-Hans">过敏</td>
+        </tr>
+        <tr>
+            <td lang="en">アレルギー性鼻炎</td>
+            <td lang="zh-Hans">过敏性鼻炎</td>
+        </tr>
+        <tr>
+            <td lang="en">アナフィラキシー</td>
+            <td lang="zh-Hans">过敏性休克</td>
+        </tr>
+        <tr>
+            <td lang="en">過酸化ベンゾイル</td>
+            <td lang="zh-Hans">过氧化苯甲酰</td>
+        </tr>
+        <tr>
+            <td lang="en">汗疱</td>
+            <td lang="zh-Hans">汗疱疹</td>
+        </tr>
+        <tr>
+            <td lang="en">汗腺</td>
+            <td lang="zh-Hans">汗腺</td>
+        </tr>
+        <tr>
+            <td lang="en">核タンパク質</td>
+            <td lang="zh-Hans">核蛋白</td>
+        </tr>
+        <tr>
+            <td lang="en">ヌクレオチド</td>
+            <td lang="zh-Hans">核苷酸</td>
+        </tr>
+        <tr>
+            <td lang="en">メラノーマ</td>
+            <td lang="zh-Hans">黑素瘤</td>
+        </tr>
+        <tr>
+            <td lang="en">永久歯</td>
+            <td lang="zh-Hans">恒牙</td>
+        </tr>
+        <tr>
+            <td lang="en">横紋筋融解症</td>
+            <td lang="zh-Hans">横纹肌溶解症</td>
+        </tr>
+        <tr>
+            <td lang="en">赤チン</td>
+            <td lang="zh-Hans">红汞</td>
+        </tr>
+        <tr>
+            <td lang="en">エリスロマイシン</td>
+            <td lang="zh-Hans">红霉素</td>
+        </tr>
+        <tr>
+            <td lang="en">乾癬性紅皮症</td>
+            <td lang="zh-Hans">红皮病型银屑病</td>
+        </tr>
+        <tr>
+            <td lang="en">赤血球</td>
+            <td lang="zh-Hans">红细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">呼吸</td>
+            <td lang="zh-Hans">呼吸</td>
+        </tr>
+        <tr>
+            <td lang="en">呼吸器系</td>
+            <td lang="zh-Hans">呼吸系统</td>
+        </tr>
+        <tr>
+            <td lang="en">看護師</td>
+            <td lang="zh-Hans">护士</td>
+        </tr>
+        <tr>
+            <td lang="en">輪状甲状間膜切開</td>
+            <td lang="zh-Hans">环甲膜切开术</td>
+        </tr>
+        <tr>
+            <td lang="en">黄疸</td>
+            <td lang="zh-Hans">黄疸</td>
+        </tr>
+        <tr>
+            <td lang="en">失神・気絶</td>
+            <td lang="zh-Hans">昏厥</td>
+        </tr>
+        <tr>
+            <td lang="en">昏睡</td>
+            <td lang="zh-Hans">昏迷</td>
+        </tr>
+        <tr>
+            <td lang="en">昏睡</td>
+            <td lang="zh-Hans">昏迷</td>
+        </tr>
+        <tr>
+            <td lang="en">コレラ</td>
+            <td lang="zh-Hans">霍乱</td>
+        </tr>
+        <tr>
+            <td lang="en">ロボット支援手術</td>
+            <td lang="zh-Hans">机器人手术</td>
+        </tr>
+        <tr>
+            <td lang="en">筋肉</td>
+            <td lang="zh-Hans">肌肉</td>
+        </tr>
+        <tr>
+            <td lang="en">筋骨格系</td>
+            <td lang="zh-Hans">肌肉骨骼系统</td>
+        </tr>
+        <tr>
+            <td lang="en">急性汎発性発疹性膿疱症（AGEP）</td>
+            <td lang="zh-Hans">急性泛发性发疹性脓疱病</td>
+        </tr>
+        <tr>
+            <td lang="en">急性心膜炎</td>
+            <td lang="zh-Hans">急性心包炎</td>
+        </tr>
+        <tr>
+            <td lang="en">病気</td>
+            <td lang="zh-Hans">疾病</td>
+        </tr>
+        <tr>
+            <td lang="en">有棘層</td>
+            <td lang="zh-Hans">棘层</td>
+        </tr>
+        <tr>
+            <td lang="en">クラッシュ症候群</td>
+            <td lang="zh-Hans">挤压综合征</td>
+        </tr>
+        <tr>
+            <td lang="en">寄生</td>
+            <td lang="zh-Hans">寄生</td>
+        </tr>
+        <tr>
+            <td lang="en">寄生虫症</td>
+            <td lang="zh-Hans">寄生虫病</td>
+        </tr>
+        <tr>
+            <td lang="en">爪真菌症</td>
+            <td lang="zh-Hans">甲真菌病</td>
+        </tr>
+        <tr>
+            <td lang="en">甲状腺</td>
+            <td lang="zh-Hans">甲状腺</td>
+        </tr>
+        <tr>
+            <td lang="en">入れ歯</td>
+            <td lang="zh-Hans">假牙</td>
+        </tr>
+        <tr>
+            <td lang="en">検査</td>
+            <td lang="zh-Hans">检查</td>
+        </tr>
+        <tr>
+            <td lang="en">トリアージ</td>
+            <td lang="zh-Hans">检伤分类</td>
+        </tr>
+        <tr>
+            <td lang="en">塩基対</td>
+            <td lang="zh-Hans">碱基对</td>
+        </tr>
+        <tr>
+            <td lang="en">交感神経</td>
+            <td lang="zh-Hans">交感神经</td>
+        </tr>
+        <tr>
+            <td lang="en">カプセル</td>
+            <td lang="zh-Hans">胶囊</td>
+        </tr>
+        <tr>
+            <td lang="en">コラーゲン</td>
+            <td lang="zh-Hans">胶原蛋白</td>
+        </tr>
+        <tr>
+            <td lang="en">不全角化</td>
+            <td lang="zh-Hans">角化不全</td>
+        </tr>
+        <tr>
+            <td lang="en">過角化</td>
+            <td lang="zh-Hans">角化过度</td>
+        </tr>
+        <tr>
+            <td lang="en">角質</td>
+            <td lang="zh-Hans">角质层</td>
+        </tr>
+        <tr>
+            <td lang="en">角化細胞</td>
+            <td lang="zh-Hans">角质形成细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">癤</td>
+            <td lang="zh-Hans">疖</td>
+        </tr>
+        <tr>
+            <td lang="en">接触皮膚炎</td>
+            <td lang="zh-Hans">接触性皮炎</td>
+        </tr>
+        <tr>
+            <td lang="en">結節</td>
+            <td lang="zh-Hans">结节</td>
+        </tr>
+        <tr>
+            <td lang="en">結膜</td>
+            <td lang="zh-Hans">结膜</td>
+        </tr>
+        <tr>
+            <td lang="en">解剖</td>
+            <td lang="zh-Hans">解剖</td>
+        </tr>
+        <tr>
+            <td lang="en">黄色ブドウ球菌</td>
+            <td lang="zh-Hans">金黄色葡萄球菌</td>
+        </tr>
+        <tr>
+            <td lang="en">首</td>
+            <td lang="zh-Hans">颈、脖子</td>
+        </tr>
+        <tr>
+            <td lang="en">頸椎</td>
+            <td lang="zh-Hans">颈椎</td>
+        </tr>
+        <tr>
+            <td lang="en">局所麻酔</td>
+            <td lang="zh-Hans">局麻</td>
+        </tr>
+        <tr>
+            <td lang="en">マクロファージ</td>
+            <td lang="zh-Hans">巨噬细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">巨細胞性動脈炎</td>
+            <td lang="zh-Hans">巨细胞动脉炎</td>
+        </tr>
+        <tr>
+            <td lang="en">菌糸</td>
+            <td lang="zh-Hans">菌丝</td>
+        </tr>
+        <tr>
+            <td lang="en">リハビリテーション科</td>
+            <td lang="zh-Hans">康复科</td>
+        </tr>
+        <tr>
+            <td lang="en">抗ヒスタミン薬</td>
+            <td lang="zh-Hans">抗组胺药</td>
+        </tr>
+        <tr>
+            <td lang="en">顆粒層</td>
+            <td lang="zh-Hans">颗粒层</td>
+        </tr>
+        <tr>
+            <td lang="en">顆粒層肥厚</td>
+            <td lang="zh-Hans">颗粒层增厚</td>
+        </tr>
+        <tr>
+            <td lang="en">せき</td>
+            <td lang="zh-Hans">咳嗽</td>
+        </tr>
+        <tr>
+            <td lang="en">クロトリマゾール</td>
+            <td lang="zh-Hans">克霉唑</td>
+        </tr>
+        <tr>
+            <td lang="en">空腹</td>
+            <td lang="zh-Hans">空腹</td>
+        </tr>
+        <tr>
+            <td lang="en">歯鏡</td>
+            <td lang="zh-Hans">口腔镜</td>
+        </tr>
+        <tr>
+            <td lang="en">アフタ性口内炎</td>
+            <td lang="zh-Hans">口腔溃疡</td>
+        </tr>
+        <tr>
+            <td lang="en">マスク</td>
+            <td lang="zh-Hans">口罩</td>
+        </tr>
+        <tr>
+            <td lang="en">キノロン</td>
+            <td lang="zh-Hans">喹诺酮</td>
+        </tr>
+        <tr>
+            <td lang="en">括約筋</td>
+            <td lang="zh-Hans">括约肌</td>
+        </tr>
+        <tr>
+            <td lang="en">虫垂</td>
+            <td lang="zh-Hans">阑尾</td>
+        </tr>
+        <tr>
+            <td lang="en">ランゲルハンス細胞</td>
+            <td lang="zh-Hans">朗格汉斯细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">肋骨</td>
+            <td lang="zh-Hans">肋骨</td>
+        </tr>
+        <tr>
+            <td lang="en">肋骨骨折</td>
+            <td lang="zh-Hans">肋骨骨折</td>
+        </tr>
+        <tr>
+            <td lang="en">関節リウマチ</td>
+            <td lang="zh-Hans">类风湿关节炎</td>
+        </tr>
+        <tr>
+            <td lang="en">冷湿布</td>
+            <td lang="zh-Hans">冷敷</td>
+        </tr>
+        <tr>
+            <td lang="en">リケッチア</td>
+            <td lang="zh-Hans">立克次氏体</td>
+        </tr>
+        <tr>
+            <td lang="en">立毛筋</td>
+            <td lang="zh-Hans">立毛肌</td>
+        </tr>
+        <tr>
+            <td lang="en">リファンピシン</td>
+            <td lang="zh-Hans">利福平</td>
+        </tr>
+        <tr>
+            <td lang="en">リツキシマブ</td>
+            <td lang="zh-Hans">利妥昔单抗</td>
+        </tr>
+        <tr>
+            <td lang="en">リンコマイシン</td>
+            <td lang="zh-Hans">林可霉素</td>
+        </tr>
+        <tr>
+            <td lang="en">悪性リンパ腫</td>
+            <td lang="zh-Hans">淋巴瘤</td>
+        </tr>
+        <tr>
+            <td lang="en">鱗屑</td>
+            <td lang="zh-Hans">鳞屑</td>
+        </tr>
+        <tr>
+            <td lang="en">扁平上皮癌</td>
+            <td lang="zh-Hans">鳞状细胞癌</td>
+        </tr>
+        <tr>
+            <td lang="en">アザチオプリン</td>
+            <td lang="zh-Hans">硫唑嘌呤</td>
+        </tr>
+        <tr>
+            <td lang="en">カラミン</td>
+            <td lang="zh-Hans">炉甘石洗剂</td>
+        </tr>
+        <tr>
+            <td lang="en">脳腫瘍</td>
+            <td lang="zh-Hans">颅内肿瘤</td>
+        </tr>
+        <tr>
+            <td lang="en">卵黄嚢</td>
+            <td lang="zh-Hans">卵黄囊</td>
+        </tr>
+        <tr>
+            <td lang="en">論文</td>
+            <td lang="zh-Hans">论文</td>
+        </tr>
+        <tr>
+            <td lang="en">ロキシスロマイシン</td>
+            <td lang="zh-Hans">罗红霉素</td>
+        </tr>
+        <tr>
+            <td lang="en">しびれる</td>
+            <td lang="zh-Hans">麻</td>
+        </tr>
+        <tr>
+            <td lang="en">ハンセン病</td>
+            <td lang="zh-Hans">麻风</td>
+        </tr>
+        <tr>
+            <td lang="en">はしか</td>
+            <td lang="zh-Hans">麻疹</td>
+        </tr>
+        <tr>
+            <td lang="en">麻酔</td>
+            <td lang="zh-Hans">麻醉</td>
+        </tr>
+        <tr>
+            <td lang="en">麻酔科学</td>
+            <td lang="zh-Hans">麻醉学</td>
+        </tr>
+        <tr>
+            <td lang="en">麻酔薬</td>
+            <td lang="zh-Hans">麻醉药</td>
+        </tr>
+        <tr>
+            <td lang="en">麻酔導入</td>
+            <td lang="zh-Hans">麻醉诱导</td>
+        </tr>
+        <tr>
+            <td lang="en">ヘアサイクル（成長期・退行期・休止期）</td>
+            <td lang="zh-Hans">毛发的生长周期（生长期、退行期、休止期）</td>
+        </tr>
+        <tr>
+            <td lang="en">毛包</td>
+            <td lang="zh-Hans">毛囊</td>
+        </tr>
+        <tr>
+            <td lang="en">ジベルばら色粃糠疹</td>
+            <td lang="zh-Hans">玫瑰糠疹</td>
+        </tr>
+        <tr>
+            <td lang="en">外来</td>
+            <td lang="zh-Hans">门诊</td>
+        </tr>
+        <tr>
+            <td lang="en">びまん性汎細気管支炎</td>
+            <td lang="zh-Hans">弥漫性泛细支气管炎</td>
+        </tr>
+        <tr>
+            <td lang="en">ミノサイクリン</td>
+            <td lang="zh-Hans">米诺环素</td>
+        </tr>
+        <tr>
+            <td lang="en">免疫系</td>
+            <td lang="zh-Hans">免疫系统</td>
+        </tr>
+        <tr>
+            <td lang="en">パターン認識受容体</td>
+            <td lang="zh-Hans">模式识别受体</td>
+        </tr>
+        <tr>
+            <td lang="en">脳神経</td>
+            <td lang="zh-Hans">脑神经</td>
+        </tr>
+        <tr>
+            <td lang="en">脳炎</td>
+            <td lang="zh-Hans">脑炎</td>
+        </tr>
+        <tr>
+            <td lang="en">脳しんとう</td>
+            <td lang="zh-Hans">脑震荡</td>
+        </tr>
+        <tr>
+            <td lang="en">内科</td>
+            <td lang="zh-Hans">内科</td>
+        </tr>
+        <tr>
+            <td lang="en">内科学</td>
+            <td lang="zh-Hans">内科学</td>
+        </tr>
+        <tr>
+            <td lang="en">内視鏡</td>
+            <td lang="zh-Hans">内窥镜</td>
+        </tr>
+        <tr>
+            <td lang="en">血管内皮</td>
+            <td lang="zh-Hans">内皮</td>
+        </tr>
+        <tr>
+            <td lang="en">レトロウイルス</td>
+            <td lang="zh-Hans">逆转录病毒</td>
+        </tr>
+        <tr>
+            <td lang="en">頻尿</td>
+            <td lang="zh-Hans">尿频</td>
+        </tr>
+        <tr>
+            <td lang="en">鑷子</td>
+            <td lang="zh-Hans">镊子</td>
+        </tr>
+        <tr>
+            <td lang="en">嘔吐</td>
+            <td lang="zh-Hans">呕吐</td>
+        </tr>
+        <tr>
+            <td lang="en">膀胱</td>
+            <td lang="zh-Hans">膀胱</td>
+        </tr>
+        <tr>
+            <td lang="en">ホウ酸</td>
+            <td lang="zh-Hans">硼酸</td>
+        </tr>
+        <tr>
+            <td lang="en">ダーモスコピー</td>
+            <td lang="zh-Hans">皮肤镜</td>
+        </tr>
+        <tr>
+            <td lang="en">皮膚筋炎</td>
+            <td lang="zh-Hans">皮肌炎</td>
+        </tr>
+        <tr>
+            <td lang="en">皮疹</td>
+            <td lang="zh-Hans">皮损</td>
+        </tr>
+        <tr>
+            <td lang="en">皮脂腺</td>
+            <td lang="zh-Hans">皮脂腺</td>
+        </tr>
+        <tr>
+            <td lang="en">疲労</td>
+            <td lang="zh-Hans">疲劳</td>
+        </tr>
+        <tr>
+            <td lang="en">片頭痛</td>
+            <td lang="zh-Hans">偏头痛</td>
+        </tr>
+        <tr>
+            <td lang="en">貧血</td>
+            <td lang="zh-Hans">贫血</td>
+        </tr>
+        <tr>
+            <td lang="en">平滑筋</td>
+            <td lang="zh-Hans">平滑肌</td>
+        </tr>
+        <tr>
+            <td lang="en">プレドニゾロン</td>
+            <td lang="zh-Hans">泼尼松龙</td>
+        </tr>
+        <tr>
+            <td lang="en">アセトアミノフェン</td>
+            <td lang="zh-Hans">扑热息痛</td>
+        </tr>
+        <tr>
+            <td lang="en">ブドウ糖</td>
+            <td lang="zh-Hans">葡萄糖</td>
+        </tr>
+        <tr>
+            <td lang="en">プレガバリン</td>
+            <td lang="zh-Hans">普瑞巴林</td>
+        </tr>
+        <tr>
+            <td lang="en">臍帯血</td>
+            <td lang="zh-Hans">脐带血</td>
+        </tr>
+        <tr>
+            <td lang="en">気胸</td>
+            <td lang="zh-Hans">气胸</td>
+        </tr>
+        <tr>
+            <td lang="en">額</td>
+            <td lang="zh-Hans">前额</td>
+        </tr>
+        <tr>
+            <td lang="en">貨幣状湿疹</td>
+            <td lang="zh-Hans">钱币状湿疹</td>
+        </tr>
+        <tr>
+            <td lang="en">接着斑</td>
+            <td lang="zh-Hans">桥粒</td>
+        </tr>
+        <tr>
+            <td lang="en">ヒドロコルチゾン</td>
+            <td lang="zh-Hans">氢化可的松</td>
+        </tr>
+        <tr>
+            <td lang="en">ゲンタマイシン</td>
+            <td lang="zh-Hans">庆大霉素</td>
+        </tr>
+        <tr>
+            <td lang="en">丘疹</td>
+            <td lang="zh-Hans">丘疹</td>
+        </tr>
+        <tr>
+            <td lang="en">虫歯</td>
+            <td lang="zh-Hans">龋齿</td>
+        </tr>
+        <tr>
+            <td lang="en">低酸素症</td>
+            <td lang="zh-Hans">缺氧</td>
+        </tr>
+        <tr>
+            <td lang="en">そばかす</td>
+            <td lang="zh-Hans">雀斑</td>
+        </tr>
+        <tr>
+            <td lang="en">人工関節</td>
+            <td lang="zh-Hans">人工关节</td>
+        </tr>
+        <tr>
+            <td lang="en">ヒト白血球型抗原</td>
+            <td lang="zh-Hans">人类白细胞抗原（HLA）</td>
+        </tr>
+        <tr>
+            <td lang="en">肉割れ</td>
+            <td lang="zh-Hans">妊娠纹</td>
+        </tr>
+        <tr>
+            <td lang="en">リゾチーム</td>
+            <td lang="zh-Hans">溶菌酶</td>
+        </tr>
+        <tr>
+            <td lang="en">溶液</td>
+            <td lang="zh-Hans">溶液</td>
+        </tr>
+        <tr>
+            <td lang="en">ボツリヌストキシン</td>
+            <td lang="zh-Hans">肉毒毒素</td>
+        </tr>
+        <tr>
+            <td lang="en">軟骨膜炎</td>
+            <td lang="zh-Hans">软骨膜炎</td>
+        </tr>
+        <tr>
+            <td lang="en">サルモネラ感染症</td>
+            <td lang="zh-Hans">沙门氏菌感染</td>
+        </tr>
+        <tr>
+            <td lang="en">ガーゼ</td>
+            <td lang="zh-Hans">纱布</td>
+        </tr>
+        <tr>
+            <td lang="en">食物繊維</td>
+            <td lang="zh-Hans">膳食纤维</td>
+        </tr>
+        <tr>
+            <td lang="en">やけど</td>
+            <td lang="zh-Hans">烧伤</td>
+        </tr>
+        <tr>
+            <td lang="en">オリゴデンドロサイト</td>
+            <td lang="zh-Hans">少突胶质细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">蛇咬傷</td>
+            <td lang="zh-Hans">蛇咬伤</td>
+        </tr>
+        <tr>
+            <td lang="en">市中肺炎</td>
+            <td lang="zh-Hans">社区获得性肺炎（CAP）</td>
+        </tr>
+        <tr>
+            <td lang="en">神経</td>
+            <td lang="zh-Hans">神经</td>
+        </tr>
+        <tr>
+            <td lang="en">神経伝達物質</td>
+            <td lang="zh-Hans">神经递质</td>
+        </tr>
+        <tr>
+            <td lang="en">グリア細胞</td>
+            <td lang="zh-Hans">神经胶质细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">神経系</td>
+            <td lang="zh-Hans">神经系统</td>
+        </tr>
+        <tr>
+            <td lang="en">ネフローゼ症候群</td>
+            <td lang="zh-Hans">肾病综合征</td>
+        </tr>
+        <tr>
+            <td lang="en">水腎症</td>
+            <td lang="zh-Hans">肾积水</td>
+        </tr>
+        <tr>
+            <td lang="en">尿路結石</td>
+            <td lang="zh-Hans">肾结石、尿路结石</td>
+        </tr>
+        <tr>
+            <td lang="en">アドレナリン</td>
+            <td lang="zh-Hans">肾上腺素</td>
+        </tr>
+        <tr>
+            <td lang="en">糸球体</td>
+            <td lang="zh-Hans">肾小球</td>
+        </tr>
+        <tr>
+            <td lang="en">腎盤</td>
+            <td lang="zh-Hans">肾盂</td>
+        </tr>
+        <tr>
+            <td lang="en">湿疹・皮膚炎</td>
+            <td lang="zh-Hans">湿疹</td>
+        </tr>
+        <tr>
+            <td lang="en">WHO必須医薬品モデル・リスト</td>
+            <td lang="zh-Hans">世界卫生组织基本药物标准清单</td>
+        </tr>
+        <tr>
+            <td lang="en">視力</td>
+            <td lang="zh-Hans">视力</td>
+        </tr>
+        <tr>
+            <td lang="en">視神経</td>
+            <td lang="zh-Hans">视神经</td>
+        </tr>
+        <tr>
+            <td lang="en">網膜</td>
+            <td lang="zh-Hans">视网膜</td>
+        </tr>
+        <tr>
+            <td lang="en">心室細動</td>
+            <td lang="zh-Hans">室颤</td>
+        </tr>
+        <tr>
+            <td lang="en">手の甲</td>
+            <td lang="zh-Hans">手背</td>
+        </tr>
+        <tr>
+            <td lang="en">オペ</td>
+            <td lang="zh-Hans">手术</td>
+        </tr>
+        <tr>
+            <td lang="en">メス</td>
+            <td lang="zh-Hans">手术刀</td>
+        </tr>
+        <tr>
+            <td lang="en">手術器具</td>
+            <td lang="zh-Hans">手术器械</td>
+        </tr>
+        <tr>
+            <td lang="en">（手術および麻酔の）同意書</td>
+            <td lang="zh-Hans">手术同意书</td>
+        </tr>
+        <tr>
+            <td lang="en">輸血</td>
+            <td lang="zh-Hans">输血</td>
+        </tr>
+        <tr>
+            <td lang="en">ペスト</td>
+            <td lang="zh-Hans">鼠疫</td>
+        </tr>
+        <tr>
+            <td lang="en">樹状細胞</td>
+            <td lang="zh-Hans">树突状细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">双子</td>
+            <td lang="zh-Hans">双胞胎</td>
+        </tr>
+        <tr>
+            <td lang="en">水痘・帯状疱疹ウイルス</td>
+            <td lang="zh-Hans">水痘–带状疱疹病毒（VZV）</td>
+        </tr>
+        <tr>
+            <td lang="en">水ぶくれ（水疱） </td>
+            <td lang="zh-Hans">水泡、水疱</td>
+        </tr>
+        <tr>
+            <td lang="en">糖尿病</td>
+            <td lang="zh-Hans">糖尿病</td>
+        </tr>
+        <tr>
+            <td lang="en">糖尿病性腎症</td>
+            <td lang="zh-Hans">糖尿病肾病</td>
+        </tr>
+        <tr>
+            <td lang="en">糖尿病網膜症</td>
+            <td lang="zh-Hans">糖尿病视网膜病变</td>
+        </tr>
+        <tr>
+            <td lang="en">テルビナフィン</td>
+            <td lang="zh-Hans">特比萘芬</td>
+        </tr>
+        <tr>
+            <td lang="en">アトピー性皮膚炎</td>
+            <td lang="zh-Hans">特应性皮炎（AD）</td>
+        </tr>
+        <tr>
+            <td lang="en">痛み</td>
+            <td lang="zh-Hans">疼痛</td>
+        </tr>
+        <tr>
+            <td lang="en">人工心肺</td>
+            <td lang="zh-Hans">体外循环</td>
+        </tr>
+        <tr>
+            <td lang="en">体温調節</td>
+            <td lang="zh-Hans">体温调节</td>
+        </tr>
+        <tr>
+            <td lang="en">制御性T細胞</td>
+            <td lang="zh-Hans">调节性T细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">聴力</td>
+            <td lang="zh-Hans">听力</td>
+        </tr>
+        <tr>
+            <td lang="en">聴神経腫瘍</td>
+            <td lang="zh-Hans">听神经瘤</td>
+        </tr>
+        <tr>
+            <td lang="en">生理痛</td>
+            <td lang="zh-Hans">痛经</td>
+        </tr>
+        <tr>
+            <td lang="en">セフロキシム</td>
+            <td lang="zh-Hans">头孢呋辛</td>
+        </tr>
+        <tr>
+            <td lang="en">セファロスポリン</td>
+            <td lang="zh-Hans">头孢菌素</td>
+        </tr>
+        <tr>
+            <td lang="en">セフトリアキソン</td>
+            <td lang="zh-Hans">头孢曲松</td>
+        </tr>
+        <tr>
+            <td lang="en">頭皮</td>
+            <td lang="zh-Hans">头皮</td>
+        </tr>
+        <tr>
+            <td lang="en">頭痛</td>
+            <td lang="zh-Hans">头痛</td>
+        </tr>
+        <tr>
+            <td lang="en">めまい</td>
+            <td lang="zh-Hans">头晕</td>
+        </tr>
+        <tr>
+            <td lang="en">突然変異</td>
+            <td lang="zh-Hans">突变</td>
+        </tr>
+        <tr>
+            <td lang="en">脱水</td>
+            <td lang="zh-Hans">脱水</td>
+        </tr>
+        <tr>
+            <td lang="en">落屑</td>
+            <td lang="zh-Hans">脱屑</td>
+        </tr>
+        <tr>
+            <td lang="en">外科</td>
+            <td lang="zh-Hans">外科</td>
+        </tr>
+        <tr>
+            <td lang="en">創傷・外傷</td>
+            <td lang="zh-Hans">外伤</td>
+        </tr>
+        <tr>
+            <td lang="en">プソイドエフェドリン</td>
+            <td lang="zh-Hans">伪麻黄碱</td>
+        </tr>
+        <tr>
+            <td lang="en">偽陽性と偽陰性</td>
+            <td lang="zh-Hans">伪阳性和伪阴性</td>
+        </tr>
+        <tr>
+            <td lang="en">まぶしい</td>
+            <td lang="zh-Hans">畏光</td>
+        </tr>
+        <tr>
+            <td lang="en">胃癌</td>
+            <td lang="zh-Hans">胃癌</td>
+        </tr>
+        <tr>
+            <td lang="en">胃カメラ</td>
+            <td lang="zh-Hans">胃镜</td>
+        </tr>
+        <tr>
+            <td lang="en">胃痛</td>
+            <td lang="zh-Hans">胃痛</td>
+        </tr>
+        <tr>
+            <td lang="en">無菌操作</td>
+            <td lang="zh-Hans">无菌操作</td>
+        </tr>
+        <tr>
+            <td lang="en">希釈</td>
+            <td lang="zh-Hans">稀释</td>
+        </tr>
+        <tr>
+            <td lang="en">手洗い</td>
+            <td lang="zh-Hans">洗手</td>
+        </tr>
+        <tr>
+            <td lang="en">全身性エリテマトーデス</td>
+            <td lang="zh-Hans">系统性红斑狼疮</td>
+        </tr>
+        <tr>
+            <td lang="en">細胞</td>
+            <td lang="zh-Hans">细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">細胞傷害性T細胞</td>
+            <td lang="zh-Hans">细胞毒性T淋巴细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">細胞核</td>
+            <td lang="zh-Hans">细胞核</td>
+        </tr>
+        <tr>
+            <td lang="en">細胞性免疫</td>
+            <td lang="zh-Hans">细胞介导免疫</td>
+        </tr>
+        <tr>
+            <td lang="en">細菌性肺炎</td>
+            <td lang="zh-Hans">细菌性肺炎</td>
+        </tr>
+        <tr>
+            <td lang="en">細菌学</td>
+            <td lang="zh-Hans">细菌学</td>
+        </tr>
+        <tr>
+            <td lang="en">先天性心疾患</td>
+            <td lang="zh-Hans">先天性心脏病</td>
+        </tr>
+        <tr>
+            <td lang="en">ミトコンドリア</td>
+            <td lang="zh-Hans">线粒体</td>
+        </tr>
+        <tr>
+            <td lang="en">アデノウイル</td>
+            <td lang="zh-Hans">腺病毒</td>
+        </tr>
+        <tr>
+            <td lang="en">消化器系</td>
+            <td lang="zh-Hans">消化系统</td>
+        </tr>
+        <tr>
+            <td lang="en">喘息</td>
+            <td lang="zh-Hans">哮喘</td>
+        </tr>
+        <tr>
+            <td lang="en">心肺蘇生法</td>
+            <td lang="zh-Hans">心肺复苏</td>
+        </tr>
+        <tr>
+            <td lang="en">心不全</td>
+            <td lang="zh-Hans">心力衰竭</td>
+        </tr>
+        <tr>
+            <td lang="en">心停止</td>
+            <td lang="zh-Hans">心跳骤停</td>
+        </tr>
+        <tr>
+            <td lang="en">心血管疾患</td>
+            <td lang="zh-Hans">心血管疾病</td>
+        </tr>
+        <tr>
+            <td lang="en">心臓</td>
+            <td lang="zh-Hans">心脏</td>
+        </tr>
+        <tr>
+            <td lang="en">心タンポナーデ</td>
+            <td lang="zh-Hans">心脏压塞</td>
+        </tr>
+        <tr>
+            <td lang="en">新生児単純ヘルペスウイルス感染症</td>
+            <td lang="zh-Hans">新生儿单纯疱疹病毒感染</td>
+        </tr>
+        <tr>
+            <td lang="en">胸部</td>
+            <td lang="zh-Hans">胸部</td>
+        </tr>
+        <tr>
+            <td lang="en">胸腔</td>
+            <td lang="zh-Hans">胸腔</td>
+        </tr>
+        <tr>
+            <td lang="en">胸が痛い</td>
+            <td lang="zh-Hans">胸痛</td>
+        </tr>
+        <tr>
+            <td lang="en">胸椎</td>
+            <td lang="zh-Hans">胸椎</td>
+        </tr>
+        <tr>
+            <td lang="en">ショック</td>
+            <td lang="zh-Hans">休克</td>
+        </tr>
+        <tr>
+            <td lang="en">嗅球</td>
+            <td lang="zh-Hans">嗅球</td>
+        </tr>
+        <tr>
+            <td lang="en">嗅神経</td>
+            <td lang="zh-Hans">嗅神经</td>
+        </tr>
+        <tr>
+            <td lang="en">血管腫</td>
+            <td lang="zh-Hans">血管瘤</td>
+        </tr>
+        <tr>
+            <td lang="en">血小板</td>
+            <td lang="zh-Hans">血小板</td>
+        </tr>
+        <tr>
+            <td lang="en">血圧</td>
+            <td lang="zh-Hans">血压</td>
+        </tr>
+        <tr>
+            <td lang="en">サチュレーション</td>
+            <td lang="zh-Hans">血氧饱和度</td>
+        </tr>
+        <tr>
+            <td lang="en">血液</td>
+            <td lang="zh-Hans">血液</td>
+        </tr>
+        <tr>
+            <td lang="en">血腫</td>
+            <td lang="zh-Hans">血肿</td>
+        </tr>
+        <tr>
+            <td lang="en">尋常性天疱瘡</td>
+            <td lang="zh-Hans">寻常型天疱疮</td>
+        </tr>
+        <tr>
+            <td lang="en">蕁麻疹</td>
+            <td lang="zh-Hans">荨麻疹</td>
+        </tr>
+        <tr>
+            <td lang="en">循環系</td>
+            <td lang="zh-Hans">循环系统</td>
+        </tr>
+        <tr>
+            <td lang="en">象牙質</td>
+            <td lang="zh-Hans">牙本质</td>
+        </tr>
+        <tr>
+            <td lang="en">歯根</td>
+            <td lang="zh-Hans">牙根</td>
+        </tr>
+        <tr>
+            <td lang="en">歯冠</td>
+            <td lang="zh-Hans">牙冠</td>
+        </tr>
+        <tr>
+            <td lang="en">歯石</td>
+            <td lang="zh-Hans">牙石</td>
+        </tr>
+        <tr>
+            <td lang="en">歯周ポケット</td>
+            <td lang="zh-Hans">牙周袋</td>
+        </tr>
+        <tr>
+            <td lang="en">顔面神経</td>
+            <td lang="zh-Hans">颜面神经</td>
+        </tr>
+        <tr>
+            <td lang="en">眼科</td>
+            <td lang="zh-Hans">眼科</td>
+        </tr>
+        <tr>
+            <td lang="en">ラノリン</td>
+            <td lang="zh-Hans">羊毛脂</td>
+        </tr>
+        <tr>
+            <td lang="en">かゆい</td>
+            <td lang="zh-Hans">痒</td>
+        </tr>
+        <tr>
+            <td lang="en">腰痛</td>
+            <td lang="zh-Hans">腰痛</td>
+        </tr>
+        <tr>
+            <td lang="en">咬筋</td>
+            <td lang="zh-Hans">咬肌</td>
+        </tr>
+        <tr>
+            <td lang="en">薬</td>
+            <td lang="zh-Hans">药</td>
+        </tr>
+        <tr>
+            <td lang="en">お薬手帳</td>
+            <td lang="zh-Hans">药物手册</td>
+        </tr>
+        <tr>
+            <td lang="en">薬物相互作用</td>
+            <td lang="zh-Hans">药物相互作用</td>
+        </tr>
+        <tr>
+            <td lang="en">薬疹</td>
+            <td lang="zh-Hans">药疹</td>
+        </tr>
+        <tr>
+            <td lang="en">鳥目</td>
+            <td lang="zh-Hans">夜盲症</td>
+        </tr>
+        <tr>
+            <td lang="en">液体窒素</td>
+            <td lang="zh-Hans">液氮</td>
+        </tr>
+        <tr>
+            <td lang="en">ずきずき痛みます</td>
+            <td lang="zh-Hans">一跳一跳地痛</td>
+        </tr>
+        <tr>
+            <td lang="en">医療機器</td>
+            <td lang="zh-Hans">医疗器械</td>
+        </tr>
+        <tr>
+            <td lang="en">医者</td>
+            <td lang="zh-Hans">医生</td>
+        </tr>
+        <tr>
+            <td lang="en">院内肺炎</td>
+            <td lang="zh-Hans">医院获得性肺炎（HAP）</td>
+        </tr>
+        <tr>
+            <td lang="en">ランゲルハンス島</td>
+            <td lang="zh-Hans">胰岛</td>
+        </tr>
+        <tr>
+            <td lang="en">β細胞</td>
+            <td lang="zh-Hans">胰岛β细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">インスリン様成長因子1</td>
+            <td lang="zh-Hans">胰岛素样生长因子1</td>
+        </tr>
+        <tr>
+            <td lang="en">膵炎</td>
+            <td lang="zh-Hans">胰腺炎</td>
+        </tr>
+        <tr>
+            <td lang="en">イソトレチノイン</td>
+            <td lang="zh-Hans">异维A酸</td>
+        </tr>
+        <tr>
+            <td lang="en">異型性</td>
+            <td lang="zh-Hans">异型性</td>
+        </tr>
+        <tr>
+            <td lang="en">イソニアジド</td>
+            <td lang="zh-Hans">异烟肼</td>
+        </tr>
+        <tr>
+            <td lang="en">意識障害</td>
+            <td lang="zh-Hans">意识障碍</td>
+        </tr>
+        <tr>
+            <td lang="en">乾癬</td>
+            <td lang="zh-Hans">银屑病</td>
+        </tr>
+        <tr>
+            <td lang="en">乾癬性関節炎</td>
+            <td lang="zh-Hans">银屑病关节炎</td>
+        </tr>
+        <tr>
+            <td lang="en">栄養</td>
+            <td lang="zh-Hans">营养</td>
+        </tr>
+        <tr>
+            <td lang="en">強皮症</td>
+            <td lang="zh-Hans">硬皮病</td>
+        </tr>
+        <tr>
+            <td lang="en">癰</td>
+            <td lang="zh-Hans">痈</td>
+        </tr>
+        <tr>
+            <td lang="en">いぼ</td>
+            <td lang="zh-Hans">疣</td>
+        </tr>
+        <tr>
+            <td lang="en">疣贅状表皮発育異常症</td>
+            <td lang="zh-Hans">疣状表皮发育不良</td>
+        </tr>
+        <tr>
+            <td lang="en">たん</td>
+            <td lang="zh-Hans">有痰</td>
+        </tr>
+        <tr>
+            <td lang="en">右胸心</td>
+            <td lang="zh-Hans">右位心</td>
+        </tr>
+        <tr>
+            <td lang="en">右目</td>
+            <td lang="zh-Hans">右眼</td>
+        </tr>
+        <tr>
+            <td lang="en">予防医学</td>
+            <td lang="zh-Hans">预防医学</td>
+        </tr>
+        <tr>
+            <td lang="en">生理</td>
+            <td lang="zh-Hans">月经</td>
+        </tr>
+        <tr>
+            <td lang="en">運動系</td>
+            <td lang="zh-Hans">运动系统</td>
+        </tr>
+        <tr>
+            <td lang="en">複素環式化合物</td>
+            <td lang="zh-Hans">杂环化合物</td>
+        </tr>
+        <tr>
+            <td lang="en">ステロイド</td>
+            <td lang="zh-Hans">甾体、类固醇</td>
+        </tr>
+        <tr>
+            <td lang="en">癒着</td>
+            <td lang="zh-Hans">粘连</td>
+        </tr>
+        <tr>
+            <td lang="en">緊張性気胸</td>
+            <td lang="zh-Hans">张力性气胸</td>
+        </tr>
+        <tr>
+            <td lang="en">診断</td>
+            <td lang="zh-Hans">诊断</td>
+        </tr>
+        <tr>
+            <td lang="en">形成外科</td>
+            <td lang="zh-Hans">整形外科</td>
+        </tr>
+        <tr>
+            <td lang="en">症状</td>
+            <td lang="zh-Hans">症状</td>
+        </tr>
+        <tr>
+            <td lang="en">リポ多糖</td>
+            <td lang="zh-Hans">脂多糖</td>
+        </tr>
+        <tr>
+            <td lang="en">脂肪肝</td>
+            <td lang="zh-Hans">脂肪肝</td>
+        </tr>
+        <tr>
+            <td lang="en">制吐剤</td>
+            <td lang="zh-Hans">止吐药</td>
+        </tr>
+        <tr>
+            <td lang="en">親知らず</td>
+            <td lang="zh-Hans">智齿</td>
+        </tr>
+        <tr>
+            <td lang="en">ほくろ</td>
+            <td lang="zh-Hans">痣</td>
+        </tr>
+        <tr>
+            <td lang="en">好中球</td>
+            <td lang="zh-Hans">中性粒细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">漢方薬</td>
+            <td lang="zh-Hans">中药</td>
+        </tr>
+        <tr>
+            <td lang="en">腫脹</td>
+            <td lang="zh-Hans">肿胀</td>
+        </tr>
+        <tr>
+            <td lang="en">重傷</td>
+            <td lang="zh-Hans">重伤</td>
+        </tr>
+        <tr>
+            <td lang="en">重症筋無力症</td>
+            <td lang="zh-Hans">重症肌无力</td>
+        </tr>
+        <tr>
+            <td lang="en">執刀医</td>
+            <td lang="zh-Hans">主刀医生</td>
+        </tr>
+        <tr>
+            <td lang="en">入院</td>
+            <td lang="zh-Hans">住院</td>
+        </tr>
+        <tr>
+            <td lang="en">シリンジポンプ</td>
+            <td lang="zh-Hans">注射泵</td>
+        </tr>
+        <tr>
+            <td lang="en">子宮内膜炎</td>
+            <td lang="zh-Hans">子宫内膜炎</td>
+        </tr>
+        <tr>
+            <td lang="en">NK細胞</td>
+            <td lang="zh-Hans">自然杀伤细胞</td>
+        </tr>
+        <tr>
+            <td lang="en">自己免疫疾患</td>
+            <td lang="zh-Hans">自身免疫性疾病</td>
+        </tr>
+        <tr>
+            <td lang="en">自己血輸血</td>
+            <td lang="zh-Hans">自体输血</td>
+        </tr>
+        <tr>
+            <td lang="en">心拍再開</td>
+            <td lang="zh-Hans">自主循环恢复</td>
+        </tr>
+        <tr>
+            <td lang="en">縦隔</td>
+            <td lang="zh-Hans">纵膈</td>
+        </tr>
+        <tr>
+            <td lang="en">クーパー</td>
+            <td lang="zh-Hans">组织剪</td>
+        </tr>
+        <tr>
+            <td lang="en">左心室</td>
+            <td lang="zh-Hans">左心室</td>
+        </tr>
+        <tr>
+            <td lang="en">左目</td>
+            <td lang="zh-Hans">左眼</td>
+        </tr> -->
+    </tbody>
+    </table>
+
+    <script>
+        const search = document.getElementById('search')
+        const table = document.getElementById('filter')
+        const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        const filter = event => {
+          const searchTerm = event.target.value.toLowerCase()
+          trArray.forEach(row => {
+            row.classList.add('hidden')
+            const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+            tdArray.forEach(cell => {
+              if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+                row.classList.remove('hidden')
+              }
+            })
+          })
+        }
+  
+        search.addEventListener('keyup', filter, false)
+    </script>
+
+</body>
+
+</html>
