@@ -74,3 +74,21 @@ tbody tr:nth-child(2n-1) {
 .hidden {
   display: none;
 }
+
+h2 {
+  font-size: 140%;
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #005a9c;
+  margin-top: 3em;
+  line-height: 1.2;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+li {
+  list-style-type: none;
+}

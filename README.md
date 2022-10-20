@@ -40,4 +40,5 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 * [Requirements for Chinese Text Layout](https://w3c.github.io/clreq/#glossary) (English, Chinese)
 * [Requirements for Japanese Text Layout](https://w3c.github.io/jlreq/#terminology) (English, Japanese)
 * [Terms that are likely to appear frequently in W3C AC meetings](https://www.w3.org/2020/05/words) (English, Chinese, Japanese, Korean)
+* [Unicode](https://www.unicode.org/glossary/) (English)
 * [Vue.js](https://github.com/vuejs-translations/docs-zh-cn/wiki/%E7%BF%BB%E8%AF%91%E9%A1%BB%E7%9F%A5) (English, Chinese)
