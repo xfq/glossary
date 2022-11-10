@@ -34,6 +34,7 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 
 ### Other Glossaries
 
+* [IETF](https://www.ietf.org/about/glossary/) (English)
 * [Internationalization](https://www.w3.org/TR/i18n-glossary/) (English)
 * [Mozilla L10N Glossary](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary) (English, Japanese)
 * [React](https://github.com/reactjs/zh-hans.reactjs.org/issues/2) (English, Chinese)
