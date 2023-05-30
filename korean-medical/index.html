@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>医疗韩语</title>
+    <meta name="keywords" content="医疗韩语" />
+    <meta name="description" content="常用医疗韩语。" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/iryou.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="input">
+        <label for="search">Search:</label>
+        <input placeholder="두통" type="text" id="search">
+    </div>
+    
+    <table id="filter">
+      <thead>
+        <tr>
+            <td lang="ko">한국어</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td lang="ko">아시클로버</td>
+            <td lang="zh-Hans">阿昔洛韦</td>
+        </tr>
+        <tr>
+            <td lang="ko">편두통</td>
+            <td lang="zh-Hans">偏头痛</td>
+        </tr>
+        <tr>
+            <td lang="ko">두통</td>
+            <td lang="zh-Hans">头痛</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <script>
+        const search = document.getElementById('search')
+        const table = document.getElementById('filter')
+        const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        const filter = event => {
+          const searchTerm = event.target.value.toLowerCase()
+          trArray.forEach(row => {
+            row.classList.add('hidden')
+            const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+            tdArray.forEach(cell => {
+              if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+                row.classList.remove('hidden')
+              }
+            })
+          })
+        }
+  
+        search.addEventListener('keyup', filter, false)
+    </script>
+
+</body>
+
+</html>

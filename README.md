@@ -20,6 +20,12 @@ Trying to learn Japanese medical terminology. The terms are not categorized.
 
 Rendered version: https://xfq.github.io/glossary/iryou/
 
+### Korean Medical Vocabulary and Phrases (医疗韩语)
+
+Trying to learn Korean medical terminology. The terms are not categorized.
+
+Rendered version: https://xfq.github.io/glossary/korean-medical/
+
 ### Japanese Maths Vocabulary and Phrases (日语中的数学词汇)
 
 The vocabulary to talk about mathematics in Japanese. The terms are not categorized.
