@@ -1,4 +1,7 @@
 ﻿English,简体中文
+abjad; consonant alphabet,辅音音素文字
+abugida; alphasyllabary,元音附标文字
+alphabet,全音素文字
 application internal identifiers,应用内部标识符
 ASCII case-insensitive matching,ASCII大小写不敏感匹配
 base direction,基方向
