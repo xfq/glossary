@@ -7,11 +7,29 @@ ASCII case-insensitive matching,ASCII大小写不敏感匹配
 base direction,基方向
 Basic Multilingual Plane (BMP),基本多文种平面（BMP）
 bidirectional text,双向文本
+bilabial,双唇音
+bound morpheme,粘着词素
 code page,代码页
 code point,码位
 consonant,辅音
+consonant cluster,辅音丛
 daylight saving time,夏时制，夏令时
+"diacritic, diacritical mark",附加符号
+free morpheme,自由词素
+glottis,声门
+grapheme cluster,不翻译，或译为「字位丛」
 inherent vowel,默认元音
 International Phonetic Alphabet (IPA),国际音标
+larynx,喉
+manner of articulation,调音方法，发音方法
+morpheme,词素
+Naskh,誊抄体
 normalization,正常化
+place of articulation,调音部位，调音位置，发音部位，发音位置
+plosive,爆破音
+retroflex consonant,卷舌音
+root,词根
+Unicode,Unicode，统一码
+Unicode control character,Unicode控制字符
+vocal folds,声带
 vowel,元音
