@@ -40,7 +40,6 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 
 ### Other Glossaries
 
-* [IETF](https://www.ietf.org/about/glossary/) (English)
 * [Mozilla L10N Glossary](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary) (English, Japanese)
 * [React](https://github.com/reactjs/zh-hans.reactjs.org/issues/2) (English, Chinese)
 * [Terms that are likely to appear frequently in W3C AC meetings](https://www.w3.org/2020/05/words) (English, Chinese, Japanese, Korean)
