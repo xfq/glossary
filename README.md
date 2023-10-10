@@ -42,6 +42,7 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 
 * [Mozilla L10N Glossary](https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary) (English, Japanese)
 * [React](https://github.com/reactjs/zh-hans.reactjs.org/issues/2) (English, Chinese)
+* [SEO](https://www.searchenginejournal.com/seo-glossary/432898/) (English)
 * [Terms that are likely to appear frequently in W3C AC meetings](https://www.w3.org/2020/05/words) (English, Chinese, Japanese, Korean)
 * [Vue.js](https://github.com/vuejs-translations/docs-zh-cn/wiki/%E7%BF%BB%E8%AF%91%E9%A1%BB%E7%9F%A5) (English, Chinese)
 
