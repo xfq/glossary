@@ -49,7 +49,7 @@ Rendered version: https://xfq.github.io/glossary/maths/en.html
 #### i18n-related Glossaries
 
 * [Internationalization](https://www.w3.org/TR/i18n-glossary/) (English)
-* [Text Layout Requirements for the Arabic Script](https://www.w3.org/TR/alreq/#glossary) (English, Arabic, Persian)
+* [Arabic & Persian Layout Requirements](https://www.w3.org/TR/alreq/#glossary) (English, Arabic, Persian)
 * [Ethiopic Layout Requirements](https://www.w3.org/TR/elreq/#glossary) (English, Amharic, Tigrinya)
 * [Requirements for Chinese Text Layout](https://w3c.github.io/clreq/#glossary) (English, Chinese)
 * [Requirements for Japanese Text Layout](https://w3c.github.io/jlreq/#terminology) (English, Japanese)
