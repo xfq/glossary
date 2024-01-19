@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+:root {
+  --a-normal-text: #034575;
+  --a-normal-underline: #707070;
+}
+
 html {
   overflow-x: hidden;
   text-rendering: optimizeLegibility;
@@ -91,4 +96,12 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+a[href] {
+  color: #034575;
+  color: var(--a-normal-text);
+  text-decoration-color: #707070;
+  text-decoration-color: var(--a-normal-underline);
+  text-decoration-skip-ink: none;
 }
