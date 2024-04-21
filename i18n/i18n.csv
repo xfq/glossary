@@ -4,6 +4,7 @@ abugida; alphasyllabary,元音附标文字
 alphabet,全音素文字
 application internal identifiers,应用内部标识符
 ASCII case-insensitive matching,ASCII大小写不敏感匹配
+aspiration,送气
 base direction,基方向
 baseline,基线
 Basic Multilingual Plane (BMP),基本多文种平面（BMP）
@@ -46,6 +47,7 @@ ligature,连字
 locale,区域设置
 manner of articulation,调音方法，发音方法
 morpheme,词素，语素
+murmured,气声
 Naskh,誊抄体
 normalization,正常化
 open syllable,开音节
@@ -65,11 +67,13 @@ syllabary,音节文字
 Unicode Consortium,统一码联盟
 Unicode control character,Unicode控制字符
 Universal Character Set; Unicode,Unicode，统一码
+unvoiced,清音
 UTF-16,UTF-16
 UTF-8,UTF-8
 variation selector,变体选择符
 virama,怛达点画
 vocal folds,声带
+voiced,浊音
 vowel,元音
 vowel sign,元音符号
 zero-width joiner (ZWJ),零宽连字
