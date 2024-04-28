@@ -1,3 +1,26 @@
+/** Styles to support the mention of Unicode characters and character sequences *****/
+
+.codepoint bdi {
+  line-height: 1em;
+  font-size: 1.25em;
+  padding-inline: 0.25em;
+}
+
+.codepoint img {
+  height: 2em;
+  margin-inline: 0.25em;
+  vertical-align: bottom;
+}
+
+.uname {
+  font-family: Arial, monospace;
+  font-size: 0.75em;
+  letter-spacing: 0.03em;
+  color: brown;
+}
+
+/** end of unicode styles */
+
 * {
   padding: 0;
   margin: 0;
