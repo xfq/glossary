@@ -17,7 +17,7 @@ calligraphy,书法
 circumgraph,环绕符号
 click consonant,搭嘴音
 closed syllable,闭音节
-coda,音节尾
+coda (syllable),音节尾
 code page,代码页
 code point,码位
 combining character,组合字符
@@ -58,7 +58,7 @@ murmured,气声
 Naskh,誊抄体
 Nasta‘līq,波斯体
 normalization,正常化
-nucleus,音节核
+nucleus (syllable),音节核
 onset (syllable),音节首
 open syllable,开音节
 orthographic syllable,正写法音节
@@ -71,7 +71,7 @@ plosive; stop,爆破音
 precomposed,预组合
 register,（适合特定场合使用的）语体风格，语域
 retroflex consonant,卷舌音
-rhyme,韵基
+rhyme (syllable),韵基
 root,词根
 specific language impairment (SLI),专门性语言障碍（SLI）
 syllabary,音节文字
