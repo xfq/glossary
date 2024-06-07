@@ -27,9 +27,11 @@ isosceles triangle,等腰三角形
 line segment,线段
 linear algebra,线性代数
 mathematical symbol,数学符号
+matrix,矩阵
 multiplication,乘法
 natural number,自然数
 nonagon,九边形
+norm,范数
 number theory,数论
 octagon,八边形
 parallelogram,平行四边形
@@ -46,8 +48,11 @@ real number,实数
 rhombus,菱形
 right angle,直角
 right triangle,直角三角形
+scalar,标量
 semicircle,半圆
 subset,子集
 subtraction,减法
 summation symbol,求和符号
+tensor,张量
 trapezoid,梯形
+vector,向量
