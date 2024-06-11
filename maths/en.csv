@@ -1,6 +1,7 @@
 ﻿English,简体中文
 absolute value,绝对值
 addition,加法
+applied mathematics,应用数学
 Archimedes,阿基米德
 axiom,公理
 coefficient,系数
@@ -26,6 +27,7 @@ Isaac Newton,艾萨克·牛顿
 isosceles triangle,等腰三角形
 line segment,线段
 linear algebra,线性代数
+linear regression,线性回归
 mathematical symbol,数学符号
 matrix,矩阵
 multiplication,乘法
@@ -42,6 +44,8 @@ probability,概率
 Pythagorean theorem,勾股定理
 quadratic equation,一元二次方程
 quadrilateral,四边形
+qualitative data,定性数据
+quantitative data,定量数据
 radius,半径
 rational number,有理数
 real number,实数
@@ -50,6 +54,8 @@ right angle,直角
 right triangle,直角三角形
 scalar,标量
 semicircle,半圆
+standard deviation,标准差
+statistics,统计学
 subset,子集
 subtraction,减法
 summation symbol,求和符号
