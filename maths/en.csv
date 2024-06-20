@@ -11,11 +11,13 @@ coordinate system,坐标系
 decagon,十边形
 decimal point,小数点
 division,除法
+element,元素
 elementary arithmetic,四则运算
 Euclidean algorithm,辗转相除法
 Euclid's Elements,几何原本
 Fermat's little theorem,费马小定理
 formal science,形式科学
+geometry,几何
 Goldbach's conjecture,哥德巴赫猜想
 greatest common divisor; highest common factor,最大公约数
 heptagon,七边形
@@ -29,6 +31,7 @@ isosceles triangle,等腰三角形
 line segment,线段
 linear algebra,线性代数
 linear regression,线性回归
+mathematical object,数学对象
 mathematical symbol,数学符号
 matrix,矩阵
 multiplication,乘法
@@ -42,6 +45,7 @@ plane,平面
 point,点
 prime,质数、素数
 probability,概率
+probability distribution,概率分布、分布
 Pythagorean theorem,勾股定理
 quadratic equation,一元二次方程
 quadrilateral,四边形
@@ -55,6 +59,8 @@ right angle,直角
 right triangle,直角三角形
 scalar,标量
 semicircle,半圆
+set,集合
+set theory,集合论、集论
 standard deviation,标准差
 statistics,统计学
 subset,子集
