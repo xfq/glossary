@@ -11,6 +11,7 @@ conditional probability,条件概率
 coordinate system,坐标系
 decagon,十边形
 decimal point,小数点
+diagonal matrix,对角矩阵
 division,除法
 element,元素
 elementary arithmetic,四则运算
@@ -23,6 +24,7 @@ Goldbach's conjecture,哥德巴赫猜想
 greatest common divisor; highest common factor,最大公约数
 heptagon,七边形
 hexagon,六边形
+identity matrix,单位矩阵
 included angle,夹角
 integer,整数
 intersect,相交
@@ -45,6 +47,7 @@ parallelogram,平行四边形
 plane,平面
 point,点
 prime,质数、素数
+principal diagonal,主对角线
 probability,概率
 probability distribution,概率分布、分布
 product,积
@@ -63,11 +66,15 @@ scalar,标量
 semicircle,半圆
 set,集合
 set theory,集合论、集论
+skew-symmetric matrix,反对称矩阵
 standard deviation,标准差
 statistics,统计学
 subset,子集
 subtraction,减法
 summation symbol,求和符号
 tensor,张量
+trace (linear algebra),迹数
+transpose,转置矩阵
 trapezoid,梯形
 vector,向量
+zero matrix,零矩阵
