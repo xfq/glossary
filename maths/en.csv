@@ -11,6 +11,7 @@ conditional probability,条件概率
 coordinate system,坐标系
 decagon,十边形
 decimal point,小数点
+determinant,行列式
 diagonal matrix,对角矩阵
 division,除法
 element,元素
@@ -28,6 +29,7 @@ identity matrix,单位矩阵
 included angle,夹角
 integer,整数
 intersect,相交
+involutory matrix,对合矩阵
 irrational number,无理数
 Isaac Newton,艾萨克·牛顿
 isosceles triangle,等腰三角形
@@ -66,6 +68,7 @@ scalar,标量
 semicircle,半圆
 set,集合
 set theory,集合论、集论
+singular matrix,奇异矩阵
 skew-symmetric matrix,反对称矩阵
 standard deviation,标准差
 statistics,统计学
