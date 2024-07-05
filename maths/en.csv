@@ -13,16 +13,19 @@ conditional probability,条件概率
 coordinate system,坐标系
 decagon,十边形
 decimal point,小数点
+dependent variable,因变量
 derivative,导数
 determinant,行列式
 diagonal matrix,对角矩阵
 division,除法
+domain of a function,定义域
 element,元素
 elementary arithmetic,四则运算
 Euclidean algorithm,辗转相除法
 Euclid's Elements,几何原本
 Fermat's little theorem,费马小定理
 formal science,形式科学
+function,函数
 Gaussian mixture model,高斯混合模型
 geometry,几何
 Goldbach's conjecture,哥德巴赫猜想
@@ -31,6 +34,8 @@ heptagon,七边形
 hexagon,六边形
 identity matrix,单位矩阵
 included angle,夹角
+independent variable,自变量
+infinity,无穷
 integer,整数
 integral,积分
 intersect,相交
@@ -38,6 +43,7 @@ involutory matrix,对合矩阵
 irrational number,无理数
 Isaac Newton,艾萨克·牛顿
 isosceles triangle,等腰三角形
+limit,极限
 line segment,线段
 linear algebra,线性代数
 linear regression,线性回归
@@ -52,6 +58,7 @@ norm,范数
 number theory,数论
 octagon,八边形
 parallelogram,平行四边形
+piecewise-defined function,分段函数
 plane,平面
 point,点
 prime,质数、素数
@@ -65,6 +72,7 @@ quadrilateral,四边形
 qualitative data,定性数据
 quantitative data,定量数据
 radius,半径
+random number generation,随机数生成
 rational number,有理数
 real number,实数
 regression analysis,回归分析
@@ -72,6 +80,7 @@ rhombus,菱形
 right angle,直角
 right triangle,直角三角形
 scalar,标量
+scatter plot,散点图
 semicircle,半圆
 set,集合
 set theory,集合论、集论
@@ -86,5 +95,7 @@ tensor,张量
 trace (linear algebra),迹数
 transpose,转置矩阵
 trapezoid,梯形
+union (set theory),并集
+variance,方差
 vector,向量
 zero matrix,零矩阵
