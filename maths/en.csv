@@ -1,6 +1,7 @@
 ﻿English,简体中文
 absolute value,绝对值
 addition,加法
+analytic geometry,解析几何
 applied mathematics,应用数学
 Archimedes,阿基米德
 axiom,公理
@@ -13,6 +14,7 @@ conditional probability,条件概率
 coordinate system,坐标系
 decagon,十边形
 decimal point,小数点
+density estimation,密度估计
 dependent variable,因变量
 derivative,导数
 determinant,行列式
@@ -22,13 +24,17 @@ domain of a function,定义域
 element,元素
 elementary arithmetic,四则运算
 Euclidean algorithm,辗转相除法
+Euclidean space,欧几里得空间
 Euclid's Elements,几何原本
+factorisation; factorization,因式分解
 Fermat's little theorem,费马小定理
 formal science,形式科学
 function,函数
 Gaussian mixture model,高斯混合模型
 geometry,几何
 Goldbach's conjecture,哥德巴赫猜想
+gradient,梯度
+gradient descent,梯度下降
 greatest common divisor; highest common factor,最大公约数
 heptagon,七边形
 hexagon,六边形
@@ -50,6 +56,7 @@ linear regression,线性回归
 mathematical object,数学对象
 mathematical symbol,数学符号
 matrix,矩阵
+matrix decomposition,矩阵分解
 maximum likelihood estimation (MLE),最大似然估计
 multiplication,乘法
 natural number,自然数
@@ -62,6 +69,7 @@ piecewise-defined function,分段函数
 plane,平面
 point,点
 prime,质数、素数
+principal component analysis,主成分分析
 principal diagonal,主对角线
 probability,概率
 probability distribution,概率分布、分布
@@ -98,4 +106,6 @@ trapezoid,梯形
 union (set theory),并集
 variance,方差
 vector,向量
+vector calculus,向量微积分
+vector field,向量场
 zero matrix,零矩阵
