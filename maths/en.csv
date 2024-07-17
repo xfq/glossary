@@ -101,6 +101,7 @@ subset,子集
 subtraction,减法
 summation symbol,求和符号
 tensor,张量
+the dimension of a vector space,向量空间的维数
 trace (linear algebra),迹数
 transpose,转置矩阵
 trapezoid,梯形
@@ -109,4 +110,5 @@ variance,方差
 vector,向量
 vector calculus,向量微积分
 vector field,向量场
+vector space,向量空间
 zero matrix,零矩阵
