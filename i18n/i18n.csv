@@ -34,11 +34,14 @@ Egyptologist,埃及古物学者
 escape,转义
 European numerals,阿拉伯数字
 featural syllabary,特征音节文字
+font,字型
 free morpheme,自由词素
 glide,滑音
 glottis,声门
+glyph,字形
 grammatology,文字学
 grapheme cluster,不翻译，或译为「字位丛」
+hyphenation,断词连字
 ijam,不翻译
 inherent vowel,默认元音
 International Phonetic Alphabet (IPA),国际音标
@@ -76,6 +79,7 @@ root,词根
 specific language impairment (SLI),专门性语言障碍（SLI）
 syllabary,音节文字
 syllable structure,音节结构
+text spacing,文本的间距调整
 Unicode Consortium,统一码联盟
 Unicode control character,Unicode控制字符
 Universal Character Set; Unicode,Unicode，统一码
