@@ -14,6 +14,7 @@ block (Unicode),区块，块（Unicode）
 bound morpheme,粘着词素
 calligraphy,书法
 "chandrabindu, candrabindu",仰月点
+character,字符
 circumgraph,环绕符号
 click consonant,搭嘴音
 closed syllable,闭音节
@@ -34,6 +35,7 @@ Egyptologist,埃及古物学者
 escape,转义
 European numerals,阿拉伯数字
 featural syllabary,特征音节文字
+font,字型
 font,字型
 free morpheme,自由词素
 glide,滑音
@@ -79,7 +81,9 @@ root,词根
 specific language impairment (SLI),专门性语言障碍（SLI）
 syllabary,音节文字
 syllable structure,音节结构
+text direction,文本方向
 text spacing,文本的间距调整
+typeface,字体
 Unicode Consortium,统一码联盟
 Unicode control character,Unicode控制字符
 Universal Character Set; Unicode,Unicode，统一码
@@ -92,5 +96,6 @@ vocal folds,声带
 voiced,浊音
 vowel,元音
 vowel sign,元音符号
+writing mode,行文模式
 zero-width joiner (ZWJ),零宽连字
 zero-width non-joiner (ZWNJ),零宽不连字
