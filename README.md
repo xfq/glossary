@@ -10,9 +10,15 @@ Rendered version: https://xfq.github.io/glossary/i18n/
 
 ### Web-related Glossary
 
-Web-related Glossary for personal use. The terms are not categorized.
+Web-related glossary for personal use. The terms are not categorized.
 
 Rendered version: https://xfq.github.io/glossary/w3c/
+
+### Networking Glossary
+
+A glossary of essential networking terms for personal use. The terms are not categorized.
+
+Rendered version: https://xfq.github.io/glossary/networking/
 
 ### Japanese Medical Vocabulary and Phrases (医疗日语)
 

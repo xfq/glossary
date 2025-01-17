@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>计算机网络常用术语</title>
+    <meta name="keywords" content="计算机网络">
+    <meta name="description" content="本文档包括与计算机网络相关的常用术语。">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="input">
+        <label for="search">Search:</label>
+        <input placeholder="packet switching" type="text" id="search">
+    </div>
+    
+    <table id="filter">
+      <thead>
+        <tr>
+            <td lang="en">English</td>
+            <td lang="zh-Hans">简体中文</td>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td lang="en">Packet switching</td>
+                <td lang="zh-Hans">分组交换</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        const search = document.getElementById('search')
+        const table = document.getElementById('filter')
+        const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
+  
+        const filter = event => {
+          const searchTerm = event.target.value.toLowerCase()
+          trArray.forEach(row => {
+            row.classList.add('hidden')
+            const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
+            tdArray.forEach(cell => {
+              if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
+                row.classList.remove('hidden')
+              }
+            })
+          })
+        }
+  
+        search.addEventListener('keyup', filter, false)
+    </script>
+
+</body>
+
+</html>
