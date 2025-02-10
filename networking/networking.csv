@@ -1,7 +1,15 @@
 ﻿English,简体中文
 application layer,应用层
 bit rate,比特率
+broadband,宽带
+communication link,通信链路
+copper wire,铜线
+core network,骨干网
 delay,时延
 optical fiber,光纤
+packet,分组
 packet switching,分组交换
+router,路由器
+routing,路由
 throughput,吞吐量
+Transmission Control Protocol,传输控制协议
