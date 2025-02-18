@@ -1,15 +1,28 @@
 ﻿English,简体中文
 application layer,应用层
+base station,基站
 bit rate,比特率
 broadband,宽带
+coaxial cable,同轴电缆
 communication link,通信链路
 copper wire,铜线
 core network,骨干网
 delay,时延
+Ethernet,以太网
+FTTH,光纤入户
+geostationary orbit,地球静止轨道
+ground station,地面站
+low Earth orbit (LEO),近地轨道
+multiplexing,多路复用
 optical fiber,光纤
+optical line termination,光纤线路终端
 packet,分组
 packet switching,分组交换
+passive optical network,无源光网络
+path loss,路径损耗
 router,路由器
 routing,路由
+routing table,路由表
 throughput,吞吐量
 Transmission Control Protocol,传输控制协议
+unshielded twisted pair (UTP),非屏蔽双绞线
