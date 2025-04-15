@@ -9,7 +9,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/app.css">
     <style>
-
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+        
+        #no-results {
+            padding: 1rem;
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 1rem;
+        }
+        
+        .input {
+            margin-bottom: 1rem;
+        }
+        
+        #search {
+            padding: 0.5rem;
+            width: 300px;
+            max-width: 100%;
+        }
     </style>
 </head>
 
@@ -557,24 +585,52 @@
       <li><a href="https://xfq.github.io/scripts/sound/index.zh-Hans.html#terms">语音学和音系学</a></li>
     </ul>
     <script>
-        const search = document.getElementById('search')
-        const table = document.getElementById('filter')
-        const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
-  
+        const search = document.getElementById('search');
+        const table = document.getElementById('filter');
+        const rows = Array.from(table.querySelectorAll('tbody tr'));
+        let timeout = null;
+
+        // Add a no-results message element
+        const noResults = document.createElement('div');
+        noResults.id = 'no-results';
+        noResults.textContent = '无搜索结果';
+        noResults.style.display = 'none';
+        table.after(noResults);
+
+        // Add accessibility status element
+        const resultsStatus = document.createElement('div');
+        resultsStatus.id = 'results-status';
+        resultsStatus.setAttribute('role', 'status');
+        resultsStatus.setAttribute('aria-live', 'polite');
+        resultsStatus.className = 'sr-only'; // Screen reader only
+        document.body.appendChild(resultsStatus);
+
         const filter = event => {
-          const searchTerm = event.target.value.toLowerCase()
-          trArray.forEach(row => {
-            row.classList.add('hidden')
-            const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
-            tdArray.forEach(cell => {
-              if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
-                row.classList.remove('hidden')
-              }
-            })
-          })
-        }
-  
-        search.addEventListener('keyup', filter, false)
+            clearTimeout(timeout);
+            
+            timeout = setTimeout(() => {
+                const searchTerm = event.target.value.toLowerCase();
+                let matchCount = 0;
+                
+                rows.forEach(row => {
+                    const cells = Array.from(row.querySelectorAll('td'));
+                    const match = cells.some(cell => 
+                        cell.textContent.toLowerCase().includes(searchTerm)
+                    );
+                    
+                    row.style.display = match ? '' : 'none';
+                    if (match) matchCount++;
+                });
+                
+                // Show message when no results found
+                noResults.style.display = matchCount === 0 ? 'block' : 'none';
+                
+                // Update status for screen readers
+                resultsStatus.textContent = `找到 ${matchCount} 个结果`;
+            }, 300); // 300ms debounce delay
+        };
+
+        search.addEventListener('input', filter);
     </script>
 
 </body>
