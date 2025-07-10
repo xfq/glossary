@@ -31,6 +31,7 @@ cursive,连写
 daylight saving time,夏时制，夏令时
 Devanagari conjuncts,天城文合字
 "diacritic, diacritical mark",附加符号，音符
+directional run,单向文本片段
 Dīwānī,公文体
 Eastern Arabic numerals,阿拉伯文数字
 Egyptologist,埃及古物学者
@@ -58,6 +59,7 @@ lexical item,词项
 ligature,连字
 locale,区域设置
 manner of articulation,调音方法，发音方法
+mirrored character,镜像字符
 morpheme,词素，语素
 Muḥaqqaq,学者体
 murmured,气声
