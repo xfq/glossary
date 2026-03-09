@@ -46,11 +46,13 @@ glottis,声门
 glyph,字形
 grammatology,文字学
 grapheme cluster,不翻译，或译为「字位丛」
+group ruby,分词连写行间注
 hyphenation,断词连字
 ijam,不翻译
 inherent vowel,默认元音
 International Phonetic Alphabet (IPA),国际音标
 internationalized domain name (IDN),国际化域名
+jukugo ruby,熟语行间注
 kerning,字偶间距
 koiné language,共通语
 Kūfī,库法体
@@ -60,6 +62,7 @@ ligature,连字
 locale,区域设置
 manner of articulation,调音方法，发音方法
 mirrored character,镜像字符
+mono ruby,单字行间注
 morpheme,词素，语素
 Muḥaqqaq,学者体
 murmured,气声
