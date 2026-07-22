@@ -3,91 +3,127 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>英语中的数学词汇</title>
-    <meta name="keywords" content="英语中的数学词汇" />
     <meta name="description" content="英语中的常见数学词汇。" />
 
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
 
     <style>
-        body {
-            max-width: 50em;
-            margin: 0 auto;
-            font-family: sans-serif;
-            padding: 1em;
+        * {
+            box-sizing: border-box;
         }
+
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+
+        main {
+            width: 100%;
+            max-width: 72rem;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
         h1, h2 {
             color: #005A9C;
         }
+
+        h1 {
+            margin: 0 0 1rem;
+        }
+
+        h2 {
+            margin: 0 0 0.75rem;
+            font-size: 1.25rem;
+        }
+
         table {
-            margin: 0 auto;
+            width: 100%;
+            margin: 0;
             border-collapse: collapse;
             border: 2px black solid;
         }
-        /* th {
+
+        caption {
+            caption-side: top;
+        }
+
+        th,
+        td {
+            border: 1px solid rgba(17, 101, 145, 0.4);
+            padding: 0.5em;
+            text-align: left;
+            vertical-align: top;
+            overflow-wrap: anywhere;
+        }
+
+        th {
             font-weight: bold;
             color: #fff;
             background-color: #034575;
-            padding-top: 1em;
-            padding-bottom: 1em;
-        } */
-        td {
-            border-left: 1px solid rgba(17, 101, 145, 0.4);
-            border-right: 1px solid rgba(17, 101, 145, 0.4);
-            padding: 0.5em;
         }
+
         tbody tr:nth-child(2n-1) {
             background-color: #fafafa;
-            transition: all .125s ease-in-out;
         }
 
         .main {
             display: flex;
-            justify-content: space-between;
             align-items: flex-start;
-            margin: 10px auto;
-            width: 1000px;
-            min-height: 100vh;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            width: 100%;
         }
 
-        /* .search {
-            text-align: left;
-            margin: 1rem;
+        .table-wrapper {
+            flex: 1 1 30rem;
+            min-width: 0;
+        }
+
+        .visually-hidden {
             position: absolute;
-            top: -0.1rem;
-            left: 0rem;
-            z-index: 1000;
-            background-color: transparent;
-            display: inline-block;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
         }
 
-    input[type=search] {
-      border: 1px solid rgba(17, 101, 145, 0.4);
-      padding: 0.5em 0.5em;
-      width: 120px;
-      font-size: 16px;
-    }
+        @media (max-width: 48rem) {
+            main {
+                padding: 0.75rem;
+            }
 
-    .hidden {
-      display: none;
-    } */
+            .main {
+                flex-direction: column;
+            }
+
+            .table-wrapper {
+                flex: 0 1 auto;
+                width: 100%;
+            }
+        }
     </style>
 </head>
 
 <body>
+    <main>
+    <!-- <h1>英语中的数学词汇</h1> -->
     <div class="main">
-    <div class="table-wrapper">
-        <!-- <div class="search">
-          <span>Search:</span>
-          <input placeholder="prime" type="search" id="search">
-        </div> -->
-    
-    <table id="filter">
+    <section class="table-wrapper" aria-labelledby="vocabulary-heading">
+        <h2 id="vocabulary-heading">数学词汇</h2>
+    <table>
+      <caption class="visually-hidden">英语数学词汇及其简体中文译法</caption>
       <thead>
         <tr>
-            <td lang="en">English</td>
-            <td lang="zh-Hans">简体中文</td>
+            <th scope="col" lang="en">English</th>
+            <th scope="col" lang="zh-Hans">简体中文</th>
         </tr>
       </thead>
       <tbody>
@@ -553,14 +589,16 @@
         </tr>
       </tbody>
     </table>
-    </div>
+    </section>
 
-    <div>
+    <section class="table-wrapper" aria-labelledby="symbols-heading">
+    <h2 id="symbols-heading">数学符号的英文读法</h2>
     <table>
+        <caption class="visually-hidden">常见数学符号及其英文读法</caption>
         <thead>
           <tr>
-              <td lang="en">Mathematical symbols</td>
-              <td lang="en">Pronunciation</td>
+              <th scope="col" lang="en">Mathematical symbols</th>
+              <th scope="col" lang="en">Reading</th>
           </tr>
         </thead>
         <tbody>
@@ -596,7 +634,7 @@
                 \(a \div b\)
             </td>
             <td lang="en">
-                a is divided by b
+                a divided by b
             </td>
         </tr>
 
@@ -614,7 +652,7 @@
                 \(a^x\)
             </td>
             <td lang="en">
-                a to the x
+                a to the power of x
             </td>
         </tr>
 
@@ -623,35 +661,15 @@
                 \(a^2\)
             </td>
             <td lang="en">
-                a square
+                a squared
             </td>
         </tr>
 
     </tbody>
     </table>
+    </section>
     </div>
-    </div>
-
-    <script>
-        // const search = document.getElementById('search')
-        // const table = document.getElementById('filter')
-        // const trArray = Array.prototype.slice.call(table.querySelectorAll('tbody tr'))
-  
-        // const filter = event => {
-        //   const searchTerm = event.target.value.toLowerCase()
-        //   trArray.forEach(row => {
-        //     row.classList.add('hidden')
-        //     const tdArray = Array.prototype.slice.call(row.getElementsByTagName('td'))
-        //     tdArray.forEach(cell => {
-        //       if (cell.innerText.toLowerCase().indexOf(searchTerm) > -1) {
-        //         row.classList.remove('hidden')
-        //       }
-        //     })
-        //   })
-        // }
-  
-        // search.addEventListener('keyup', filter, false)
-      </script>
+    </main>
 
 </body>
 
