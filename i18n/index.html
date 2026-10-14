@@ -8,53 +8,29 @@
     <meta name="description" content="本文档包括与国际化相关的各种术语。">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/app.css">
-    <style>
-        .sr-only {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            padding: 0;
-            margin: -1px;
-            overflow: hidden;
-            clip: rect(0, 0, 0, 0);
-            white-space: nowrap;
-            border: 0;
-        }
-        
-        #no-results {
-            padding: 1rem;
-            text-align: center;
-            color: #666;
-            font-style: italic;
-            margin-top: 1rem;
-        }
-        
-        .input {
-            margin-bottom: 1rem;
-        }
-        
-        #search {
-            padding: 0.5rem;
-            width: 300px;
-            max-width: 100%;
-        }
-    </style>
 </head>
 
 <body>
-    <div class="input">
-        <label for="search">Search:</label>
-        <input placeholder="code point" type="text" id="search">
+    <header>
+        <h1>国际化术语表</h1>
+        <p>本页收录与国际化（i18n）相关的各种术语及其简体中文译名，涉及 Unicode、字符编码、文字系统、文字排版、语音学与音系学等领域。也可以<a href="i18n.csv" download>下载 CSV 格式的术语列表</a>。</p>
+    </header>
+
+    <div class="input" role="search">
+        <label for="search" lang="en">Search:</label>
+        <input placeholder="code point" type="search" id="search" autocomplete="off" spellcheck="false" aria-describedby="search-hint" aria-keyshortcuts="/">
     </div>
-    
+    <p id="search-hint" class="hint">搜索不区分大小写和变音符号（例如输入 kufi 即可找到 Kūfī）。按 <kbd>/</kbd> 键可快速定位到搜索框，按 <kbd>Esc</kbd> 键清空搜索。</p>
+    <p id="results-status" class="hint" role="status" aria-live="polite"></p>
+
     <table id="filter">
       <thead>
         <tr>
-            <td lang="en">English</td>
-            <td lang="zh-Hans">简体中文</td>
-            <td lang="zh-Hans">定义</td>
+            <th scope="col" lang="en">English</th>
+            <th scope="col">简体中文</th>
+            <th scope="col">定义</th>
         </tr>
-        </thead>
+      </thead>
 
         <tbody>
             <tr id="term.abjad">
@@ -78,72 +54,72 @@
                     既标出辅音，也标出元音的书写系统。英语的alphabet一词源于希腊字母的前两个字母：alpha和beta。（另见<a href="https://www.unicode.org/glossary/#alphabet">Unicode的定义</a>。）其他类型的书写系统包括<a href="#term.abjad">辅音音素文字</a>、<a href="#term.abugida">元音附标文字</a>和<a href="#term.syllabary">音节文字</a>。
                 </td>
             </tr>
-            <tr>
+            <tr id="term.application-internal-identifiers">
                 <td lang="en">application internal identifiers</td>
                 <td lang="zh-Hans">应用内部标识符</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.ascii-case-insensitive-matching">
                 <td lang="en">ASCII case-insensitive matching</td>
                 <td lang="zh-Hans">ASCII大小写不敏感匹配</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.aspiration">
                 <td lang="en">aspiration</td>
                 <td lang="zh-Hans">送气</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.base-direction">
                 <td lang="en">base direction</td>
                 <td lang="zh-Hans">基方向</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.baseline">
                 <td lang="en">baseline</td>
                 <td lang="zh-Hans">基线</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.basic-multilingual-plane">
                 <td lang="en">Basic Multilingual Plane (BMP)</td>
                 <td lang="zh-Hans">基本多文种平面（BMP）</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.bidirectional-text">
                 <td lang="en">bidirectional text</td>
                 <td lang="zh-Hans">双向文本</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.bilabial">
                 <td lang="en">bilabial</td>
                 <td lang="zh-Hans">双唇音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.block">
                 <td lang="en">block (Unicode)</td>
                 <td lang="zh-Hans">区块，块（Unicode）</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.bound-morpheme">
                 <td lang="en">bound morpheme</td>
                 <td lang="zh-Hans">粘着词素</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.byte-order-mark">
                 <td lang="en">byte order mark</td>
                 <td lang="zh-Hans">字节顺序标记，字节序标记</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.calligraphy">
                 <td lang="en">calligraphy</td>
                 <td lang="zh-Hans">书法</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.chandrabindu">
                 <td lang="en">chandrabindu, candrabindu</td>
                 <td lang="zh-Hans">仰月点</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.character">
                 <td lang="en">character</td>
                 <td lang="zh-Hans">字符</td>
                 <td lang="zh-Hans"></td>
@@ -151,14 +127,14 @@
             <tr id="term.circumgraph">
                 <td lang="en">circumgraph</td>
                 <td lang="zh-Hans">环绕符号</td>
-                <td lang="zh-Hans">在辅音的多个方向都有字形的单个元音码位。例如，在奥里亚文的音节 <img src="img/circumgraph.svg" alt="କୋ" style="height:1.2rem;"> /ka/ 中，字符 <span class="codepoint" translate="no"><bdi lang="or">ୋ</bdi><code class="uname">U+0B4B ORIYA VOWEL SIGN O</code></span> 在辅音的两侧都有字形。</td>
+                <td lang="zh-Hans">在辅音的多个方向都有字形的单个元音码位。例如，在奥里亚文的音节 <img src="img/circumgraph.svg" alt="କୋ" class="glyph-image"> /ko/ 中，字符 <span class="codepoint" translate="no"><bdi lang="or">ୋ</bdi><code class="uname">U+0B4B ORIYA VOWEL SIGN O</code></span> 在辅音的两侧都有字形。</td>
             </tr>
-            <tr>
+            <tr id="term.click-consonant">
                 <td lang="en">click consonant</td>
                 <td lang="zh-Hans">搭嘴音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.closed-syllable">
                 <td lang="en">closed syllable</td>
                 <td lang="zh-Hans">闭音节</td>
                 <td lang="zh-Hans"></td>
@@ -168,85 +144,84 @@
                 <td lang="zh-Hans">音节尾</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.code-chart">
                 <td lang="en">code chart</td>
                 <td lang="zh-Hans">代码表</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.code-page">
                 <td lang="en">code page</td>
                 <td lang="zh-Hans">代码页</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.code-point">
                 <td lang="en">code point</td>
                 <td lang="zh-Hans">码位</td>
                 <td lang="zh-Hans">
                     码位表示字符在字符集中的位置。例如，Unicode字符集中字母á的码位十进制为225，十六进制为0xE1。我们通常使用十六进制数来表示码位。
                 </td>
             </tr>
-            <tr>
+            <tr id="term.combining-character">
                 <td lang="en">combining character</td>
                 <td lang="zh-Hans">组合字符</td>
-                <td lang="zh-Hans">
-                </td>
+                <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.common-locale-data-repository">
                 <td lang="en">Common Locale Data Repository</td>
                 <td lang="zh-Hans">公共区域设置数据存储库</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.consonant">
                 <td lang="en">consonant</td>
                 <td lang="zh-Hans">辅音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.consonant-cluster">
                 <td lang="en">consonant cluster</td>
                 <td lang="zh-Hans">辅音丛</td>
                 <td lang="zh-Hans">连续出现的不夹杂元音的多个辅音（如英语单词splits的词首和词尾各有一个辅音丛）。</td>
             </tr>
-            <tr>
+            <tr id="term.cursive">
                 <td lang="en">cursive</td>
                 <td lang="zh-Hans">连写</td>
                 <td lang="zh-Hans">字母通常在基线连接的文字（有些文字并非全部字母可在词内连写在一起）。字体通常需要支持字母的各种内文形式。连写文字包括阿德拉姆字母、阿拉伯字母、哈乃斐罗兴亚文字、蒙文、西非书面字母和叙利亚字母。其他一些文字的字母也可以连在一起，但它们通常不被称为「连写文字」，如天城文、孟加拉文和古木基文等。</td>
             </tr>
-            <tr>
+            <tr id="term.daylight-saving-time">
                 <td lang="en">daylight saving time</td>
                 <td lang="zh-Hans">夏时制，夏令时</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.devanagari-conjuncts">
                 <td lang="en">Devanagari conjuncts</td>
                 <td lang="zh-Hans">天城文合字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.diacritic">
                 <td lang="en">diacritic, diacritical mark</td>
                 <td lang="zh-Hans">附加符号，音符</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.directional-run">
                 <td lang="en">directional run</td>
                 <td lang="zh-Hans">单向文本片段</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.diwani">
                 <td lang="en">Dīwānī</td>
                 <td lang="zh-Hans">公文体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.eastern-arabic-numerals">
                 <td lang="en">Eastern Arabic numerals</td>
                 <td lang="zh-Hans">阿拉伯文数字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.egyptologist">
                 <td lang="en">Egyptologist</td>
                 <td lang="zh-Hans">埃及古物学者</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.escape">
                 <td lang="en">escape</td>
                 <td lang="zh-Hans">转义</td>
                 <td lang="zh-Hans"></td>
@@ -256,57 +231,57 @@
                 <td lang="zh-Hans">阿拉伯数字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.featural-syllabary">
                 <td lang="en">featural syllabary</td>
                 <td lang="zh-Hans">特征音节文字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.font">
                 <td lang="en">font</td>
                 <td lang="zh-Hans">字型</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.free-morpheme">
                 <td lang="en">free morpheme</td>
                 <td lang="zh-Hans">自由词素</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.glide">
                 <td lang="en">glide</td>
                 <td lang="zh-Hans">滑音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.glottis">
                 <td lang="en">glottis</td>
                 <td lang="zh-Hans">声门</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.glyph">
                 <td lang="en">glyph</td>
                 <td lang="zh-Hans">字形</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.grammatology">
                 <td lang="en">grammatology</td>
                 <td lang="zh-Hans">文字学</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.grapheme-cluster">
                 <td lang="en">grapheme cluster</td>
                 <td lang="zh-Hans">不翻译，或译为「字位丛」</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.group-ruby">
                 <td lang="en">group ruby</td>
                 <td lang="zh-Hans">分词连写行间注</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.hyphenation">
                 <td lang="en">hyphenation</td>
                 <td lang="zh-Hans">断词连字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.ijam">
                 <td lang="en">ijam</td>
                 <td lang="zh-Hans">不翻译</td>
                 <td lang="zh-Hans"></td>
@@ -316,102 +291,102 @@
                 <td lang="zh-Hans">默认元音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.international-phonetic-alphabet">
                 <td lang="en">International Phonetic Alphabet (IPA)</td>
                 <td lang="zh-Hans">国际音标</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.internationalized-domain-name">
                 <td lang="en">internationalized domain name (IDN)</td>
                 <td lang="zh-Hans">国际化域名</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.jukugo-ruby">
                 <td lang="en">jukugo ruby</td>
                 <td lang="zh-Hans">熟语行间注</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.kerning">
                 <td lang="en">kerning</td>
                 <td lang="zh-Hans">字偶间距</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.koine-language">
                 <td lang="en">koiné language</td>
                 <td lang="zh-Hans">共通语</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.kufi">
                 <td lang="en">Kūfī</td>
                 <td lang="zh-Hans">库法体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.larynx">
                 <td lang="en">larynx</td>
                 <td lang="zh-Hans">喉</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.lexical-item">
                 <td lang="en">lexical item</td>
                 <td lang="zh-Hans">词项</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.ligature">
                 <td lang="en">ligature</td>
                 <td lang="zh-Hans">连字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.locale">
                 <td lang="en">locale</td>
                 <td lang="zh-Hans">区域设置</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.manner-of-articulation">
                 <td lang="en">manner of articulation</td>
                 <td lang="zh-Hans">调音方法，发音方法</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.mirrored-character">
                 <td lang="en">mirrored character</td>
                 <td lang="zh-Hans">镜像字符</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.mono-ruby">
                 <td lang="en">mono ruby</td>
                 <td lang="zh-Hans">单字行间注</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.morpheme">
                 <td lang="en">morpheme</td>
                 <td lang="zh-Hans">词素，语素</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.muhaqqaq">
                 <td lang="en">Muḥaqqaq</td>
                 <td lang="zh-Hans">学者体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.murmured">
                 <td lang="en">murmured</td>
                 <td lang="zh-Hans">气声</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.nasalization">
                 <td lang="en">nasalization, nasalisation</td>
                 <td lang="zh-Hans">鼻音化</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.naskh">
                 <td lang="en">Naskh</td>
                 <td lang="zh-Hans">誊抄体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.nasta-liq">
                 <td lang="en">Nasta‘līq</td>
                 <td lang="zh-Hans">波斯体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.normalization">
                 <td lang="en">normalization</td>
                 <td lang="zh-Hans">正常化</td>
                 <td lang="zh-Hans"></td>
@@ -426,7 +401,7 @@
                 <td lang="zh-Hans">音节首</td>
                 <td lang="zh-Hans">由辅音充当。在部分语言中是必有成分，而在另一些语言中则是可能出现甚至不得出现的成分。另参见<a href="#term.syllable-structure">音节结构</a>。</td>
             </tr>
-            <tr>
+            <tr id="term.open-syllable">
                 <td lang="en">open syllable</td>
                 <td lang="zh-Hans">开音节</td>
                 <td lang="zh-Hans"></td>
@@ -436,62 +411,62 @@
                 <td lang="zh-Hans">正写法音节</td>
                 <td lang="zh-Hans">Unicode标准中没有对这个术语进行明确定义。我们在这里将其定义为包括多于一个grapheme cluster的排版单位。</td>
             </tr>
-            <tr>
+            <tr id="term.orthography">
                 <td lang="en">orthography</td>
                 <td lang="zh-Hans">正写法</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.phonetics">
                 <td lang="en">phonetics</td>
                 <td lang="zh-Hans">语音学</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.phonology">
                 <td lang="en">phonology</td>
                 <td lang="zh-Hans">音系学</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.place-of-articulation">
                 <td lang="en">place of articulation</td>
                 <td lang="zh-Hans">调音部位，调音位置，发音部位，发音位置</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.plane">
                 <td lang="en">plane (Unicode)</td>
                 <td lang="zh-Hans">平面（Unicode）</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.plosive">
                 <td lang="en">plosive; stop</td>
                 <td lang="zh-Hans">爆破音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.precomposed">
                 <td lang="en">precomposed</td>
                 <td lang="zh-Hans">预组合</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.register">
                 <td lang="en">register</td>
                 <td lang="zh-Hans">（适合特定场合使用的）语体风格，语域</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.retroflex-consonant">
                 <td lang="en">retroflex consonant</td>
                 <td lang="zh-Hans">卷舌音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.rhyme">
                 <td lang="en">rhyme (syllable)</td>
                 <td lang="zh-Hans">韵基</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.root">
                 <td lang="en">root</td>
                 <td lang="zh-Hans">词根</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.specific-language-impairment">
                 <td lang="en">specific language impairment (SLI)</td>
                 <td lang="zh-Hans">专门性语言障碍（SLI）</td>
                 <td lang="zh-Hans"></td>
@@ -510,12 +485,12 @@
                     一个音节从结构上一般包括音节首和韵基。韵基包括音节核和音节尾。音节核是必有成分，而音节首和音节尾可以不出现。
                 </td>
             </tr>
-            <tr>
+            <tr id="term.text-direction">
                 <td lang="en">text direction</td>
                 <td lang="zh-Hans">文本方向</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.text-spacing">
                 <td lang="en">text spacing</td>
                 <td lang="zh-Hans">文本的间距调整</td>
                 <td lang="zh-Hans"></td>
@@ -530,22 +505,22 @@
                 <td lang="zh-Hans">转写</td>
                 <td lang="zh-Hans">在转写中，每个母语字符都与一个唯一的拉丁字母相关联。转写可能无法准确表达发音，但允许两种文字之间进行直接且可逆的转换。另见<a href="#term.transcription">标音</a>。</td>
             </tr>
-            <tr>
+            <tr id="term.typeface">
                 <td lang="en">typeface</td>
                 <td lang="zh-Hans">字体</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.typography">
                 <td lang="en">typography</td>
                 <td lang="zh-Hans">字体排印</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.unicode-consortium">
                 <td lang="en">Unicode Consortium</td>
                 <td lang="zh-Hans">统一码联盟</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.unicode-control-character">
                 <td lang="en">Unicode control character</td>
                 <td lang="zh-Hans">Unicode控制字符</td>
                 <td lang="zh-Hans"></td>
@@ -555,7 +530,7 @@
                 <td lang="zh-Hans">Unicode，统一码</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.unvoiced">
                 <td lang="en">unvoiced</td>
                 <td lang="zh-Hans">清音</td>
                 <td lang="zh-Hans"></td>
@@ -570,27 +545,27 @@
                 <td lang="zh-Hans">UTF-8</td>
                 <td lang="zh-Hans">一种多字节编码，1到4个字节表示每个Unicode字符，并且向后兼容ASCII。UTF-8是网页中表示Unicode的主要编码。</td>
             </tr>
-            <tr>
+            <tr id="term.variation-selector">
                 <td lang="en">variation selector</td>
                 <td lang="zh-Hans">变体选择符</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.virama">
                 <td lang="en">virama</td>
                 <td lang="zh-Hans">怛达点画</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.vocal-folds">
                 <td lang="en">vocal folds</td>
                 <td lang="zh-Hans">声带</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.voiced">
                 <td lang="en">voiced</td>
                 <td lang="zh-Hans">浊音</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.vowel">
                 <td lang="en">vowel</td>
                 <td lang="zh-Hans">元音</td>
                 <td lang="zh-Hans"></td>
@@ -600,78 +575,32 @@
                 <td lang="zh-Hans">元音符号</td>
                 <td lang="zh-Hans">表示一个元音的一个字形或多个字形的组合。元音符号通常在婆罗米系文字中出现，用来替代<a href="#term.inherent-vowel">默认元音</a>。元音符号有时有多个部分，这些部分可能显示在辅音字母的不同方位（上下左右都有可能）。元音符号通常是组合字符，但有时也可能是组合字符和独立字母的组合（比如泰文和老挝文），或者只有独立的字母（如新傣仂文）。</td>
             </tr>
-            <tr>
+            <tr id="term.writing-mode">
                 <td lang="en">writing mode</td>
                 <td lang="zh-Hans">行文模式</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.zero-width-joiner">
                 <td lang="en">zero-width joiner (ZWJ)</td>
                 <td lang="zh-Hans">零宽连字</td>
                 <td lang="zh-Hans"></td>
             </tr>
-            <tr>
+            <tr id="term.zero-width-non-joiner">
                 <td lang="en">zero-width non-joiner (ZWNJ)</td>
                 <td lang="zh-Hans">零宽不连字</td>
                 <td lang="zh-Hans"></td>
             </tr>
         </tbody>
     </table>
+    <p id="no-results" hidden>无搜索结果</p>
 
-    <h2 id="references">References</h2>
+    <h2 id="references" lang="en">References</h2>
     <ul>
       <li><a href="https://www.w3.org/TR/i18n-glossary/">W3C Internationalization Glossary</a></li>
       <li><a href="https://www.unicode.org/glossary/">Glossary of Unicode Terms</a></li>
       <li><a href="https://xfq.github.io/scripts/sound/index.zh-Hans.html#terms">语音学和音系学</a></li>
     </ul>
-    <script>
-        const search = document.getElementById('search');
-        const table = document.getElementById('filter');
-        const rows = Array.from(table.querySelectorAll('tbody tr'));
-        let timeout = null;
-
-        // Add a no-results message element
-        const noResults = document.createElement('div');
-        noResults.id = 'no-results';
-        noResults.textContent = '无搜索结果';
-        noResults.style.display = 'none';
-        table.after(noResults);
-
-        // Add accessibility status element
-        const resultsStatus = document.createElement('div');
-        resultsStatus.id = 'results-status';
-        resultsStatus.setAttribute('role', 'status');
-        resultsStatus.setAttribute('aria-live', 'polite');
-        resultsStatus.className = 'sr-only'; // Screen reader only
-        document.body.appendChild(resultsStatus);
-
-        const filter = event => {
-            clearTimeout(timeout);
-            
-            timeout = setTimeout(() => {
-                const searchTerm = event.target.value.toLowerCase();
-                let matchCount = 0;
-                
-                rows.forEach(row => {
-                    const cells = Array.from(row.querySelectorAll('td'));
-                    const match = cells.some(cell => 
-                        cell.textContent.toLowerCase().includes(searchTerm)
-                    );
-                    
-                    row.style.display = match ? '' : 'none';
-                    if (match) matchCount++;
-                });
-                
-                // Show message when no results found
-                noResults.style.display = matchCount === 0 ? 'block' : 'none';
-                
-                // Update status for screen readers
-                resultsStatus.textContent = `找到 ${matchCount} 个结果`;
-            }, 300); // 300ms debounce delay
-        };
-
-        search.addEventListener('input', filter);
-    </script>
+    <script src="js/app.js"></script>
 
 </body>
 
