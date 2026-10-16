@@ -16,8 +16,6 @@ Rendered version: https://xfq.github.io/glossary/w3c/
 
 ### AI Glossary
 
-Web-related glossary for personal use. The terms are not categorized.
-
 Rendered version: https://xfq.github.io/glossary/ai/
 
 ### English Maths Vocabulary and Phrases (英语中的数学词汇)
