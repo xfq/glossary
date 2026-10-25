@@ -1,4 +1,4 @@
-﻿English,简体中文
+English,简体中文
 abjad; consonant alphabet,辅音音素文字
 abugida; alphasyllabary,元音附标文字
 alphabet,全音素文字
@@ -64,8 +64,8 @@ manner of articulation,调音方法，发音方法
 mirrored character,镜像字符
 mono ruby,单字行间注
 morpheme,词素，语素
-Muḥaqqaq,学者体
 murmured,气声
+Muḥaqqaq,学者体
 "nasalization, nasalisation",鼻音化
 Naskh,誊抄体
 Nasta‘līq,波斯体
@@ -101,6 +101,7 @@ unvoiced,清音
 UTF-16,UTF-16
 UTF-8,UTF-8
 variation selector,变体选择符
+Vedas,吠陀
 virama,怛达点画
 vocal folds,声带
 voiced,浊音
